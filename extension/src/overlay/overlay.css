@@ -1,0 +1,110 @@
+/* Shadow-root styles for the floating chat. Nothing leaks to or from the host page. */
+:host {
+  all: initial;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --ink: #0a0a0a;
+  --ink-2: #3d3d3d;
+  --muted: #6b6b6b;
+  --line: #e8e8e8;
+  --line-strong: #d4d4d4;
+  --accent: #3b5bdb;
+  --accent-ink: #ffffff;
+  --accent-hover: #2f4bc0;
+  --danger: #b42318;
+  --danger-bg: #fef3f2;
+  --radius: 12px;
+  --radius-s: 8px;
+  --shadow: 0 16px 40px rgba(10, 10, 10, 0.10), 0 2px 6px rgba(10, 10, 10, 0.06);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  font: 14px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  color: var(--ink);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+::selection { background: rgba(59, 91, 219, 0.18); }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.root { position: fixed; right: 24px; bottom: 24px; z-index: 2147483647; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+
+.launcher {
+  display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 18px 0 14px;
+  border: 1px solid var(--ink); border-radius: 22px; background: var(--ink); color: #fff;
+  font-weight: 600; cursor: pointer; box-shadow: var(--shadow);
+  transition: transform 160ms var(--ease), background 160ms var(--ease);
+}
+.launcher:hover { background: #262626; }
+.launcher:active { transform: translateY(1px); }
+.launcher svg { width: 18px; height: 18px; }
+
+.panel {
+  width: min(380px, calc(100vw - 32px)); height: min(580px, calc(100vh - 48px));
+  display: flex; flex-direction: column; background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
+  transform-origin: bottom right; animation: rise 220ms var(--ease);
+}
+@keyframes rise { from { opacity: 0; transform: translateY(8px) scale(0.98); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .panel, .thinking span { animation: none; } .launcher { transition: none; } }
+
+.head { display: flex; align-items: flex-start; gap: 12px; padding: 14px 14px 12px 18px; border-bottom: 1px solid var(--line); }
+.head h2 { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3; }
+.head p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+.mode { display: inline-flex; align-items: center; gap: 6px; }
+.mode::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--muted); }
+.mode.llm::before { background: var(--accent); }
+.close { margin-left: auto; width: 32px; height: 32px; border: 0; border-radius: var(--radius-s); background: transparent; color: var(--muted); cursor: pointer; display: grid; place-items: center; }
+.close:hover { background: var(--bg); color: var(--ink); }
+.close svg { width: 16px; height: 16px; }
+
+.log { flex: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 20px; scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
+
+.intro { color: var(--ink-2); margin: 0 0 4px; }
+.suggest { display: flex; flex-direction: column; gap: 6px; }
+.suggest button {
+  text-align: left; padding: 9px 12px; border: 1px solid var(--line); border-radius: var(--radius-s);
+  background: var(--surface); cursor: pointer; color: var(--ink-2); transition: border-color 120ms, background 120ms;
+}
+.suggest button:hover { border-color: var(--line-strong); background: var(--bg); color: var(--ink); }
+
+.q { align-self: flex-end; max-width: 85%; color: var(--muted); text-align: right; }
+
+.answer { display: flex; flex-direction: column; gap: 8px; }
+.claim { margin: 0; font-weight: 600; line-height: 1.4; }
+.para { margin: 0; color: var(--ink-2); }
+.proof { margin: 0; padding: 0; list-style: none; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius-s); }
+.proof li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 7px 10px; border-top: 1px solid var(--line); font-size: 13px; }
+.proof .d { flex-basis: 100%; font-size: 12px; color: var(--muted); }
+.proof li:first-child { border-top: 0; }
+.proof .v { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+.proof .l { color: var(--ink-2); flex: 1 1 60%; min-width: 0; }
+.proof .v { margin-left: auto; }
+.proof .v.alert { color: var(--danger); font-weight: 600; }
+.proof .l a { color: inherit; text-underline-offset: 2px; text-decoration-color: var(--muted); }
+.proof .l a:hover { color: var(--accent); text-decoration-color: currentColor; }
+@media (max-width: 480px) { .root { right: 16px; bottom: 16px; } }
+.proof li.solo .l { color: var(--ink); }
+
+.sources { font-size: 12px; color: var(--muted); }
+.sources a { color: var(--ink-2); text-underline-offset: 2px; text-decoration-color: var(--muted); }
+.sources a:hover { color: var(--accent); text-decoration-color: currentColor; }
+
+.thinking { color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.thinking span { width: 6px; height: 6px; border-radius: 50%; background: var(--line-strong); animation: blink 1s infinite var(--ease); }
+.thinking span:nth-child(2) { animation-delay: 150ms; } .thinking span:nth-child(3) { animation-delay: 300ms; }
+@keyframes blink { 50% { background: var(--muted); } }
+
+.error { margin: 0; padding: 10px 12px; border-radius: var(--radius-s); background: var(--danger-bg); color: var(--danger); font-size: 13px; }
+
+.compose { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); background: var(--surface); }
+.compose input {
+  flex: 1; min-width: 0; height: 40px; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: var(--radius-s);
+  background: var(--surface); caret-color: var(--accent);
+}
+.compose input::placeholder { color: var(--muted); }
+.compose input:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(59, 91, 219, 0.15); }
+.send { height: 40px; padding: 0 16px; border: 0; border-radius: var(--radius-s); background: var(--accent); color: var(--accent-ink); font-weight: 600; cursor: pointer; }
+.send:hover { background: var(--accent-hover); }
+.send:disabled { opacity: 0.45; cursor: default; }
+
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

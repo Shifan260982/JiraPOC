@@ -1,0 +1,63 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:14px/1.45 "Segoe UI",Roboto,Arial,sans-serif;color:#16181D;background:#fff;display:flex}
+.page{flex:1;padding:24px;position:relative;background:#fff}
+.page h1{font-size:20px;margin:0 0 4px}.meta{color:#6b6f76;font-size:12px;margin-bottom:16px}
+.ws{border:1px solid #e3e5e8;border-radius:8px;margin-bottom:16px;opacity:.55}.ws b{display:block;padding:8px 12px;background:#f8fafc;border-bottom:1px solid #e3e5e8}
+.grid{display:grid;grid-template-columns:150px repeat(10,1fr);font-size:11px}.grid div{padding:6px;border-bottom:1px solid #eef0f2}
+.chip{display:inline-block;padding:1px 6px;border-radius:4px;background:#e8e9fd;color:#4f46e5;font-weight:600}
+.chat{position:absolute;right:24px;bottom:24px;width:380px;height:560px;background:#F6F4EF;border:1px solid #16181D;border-radius:4px;display:flex;flex-direction:column;box-shadow:0 12px 32px rgba(22,24,29,.18)}
+.chat header{background:#0F5C4A;color:#F6F4EF;padding:12px 16px;display:flex;justify-content:space-between;align-items:center}
+.chat header strong{font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.lot{font-family:Doto,monospace;font-weight:900;letter-spacing:.06em}
+.msgs{flex:1;padding:16px;display:flex;flex-direction:column;gap:12px;overflow:hidden}
+.q{align-self:flex-end;background:#16181D;color:#F6F4EF;padding:8px 12px;border-radius:4px;max-width:80%}
+.a{background:#fff;border:1px solid #d8d3c6;padding:12px;border-radius:4px}
+.a p{margin:0 0 8px}.row{display:flex;justify-content:space-between;border-top:1px dashed #d8d3c6;padding:6px 0}
+.stamp{font-family:Doto,monospace;font-weight:900;font-size:15px;padding:0 6px;border:1.5px solid currentColor;border-radius:2px}
+.red{color:#C8322B}.amber{color:#C98A12}.ink{color:#16181D}
+.src{font-size:12px;color:#5b5f66;margin-top:6px}
+.ask{border-top:1px solid #d8d3c6;padding:12px;display:flex;gap:8px;background:#fff}
+.ask input{flex:1;border:1px solid #16181D;border-radius:4px;padding:8px 10px;font:inherit}
+.ask button{background:#0F5C4A;color:#fff;border:0;border-radius:4px;padding:0 14px;font-weight:600}
+aside{width:400px;background:#F6F4EF;border-left:1px solid #d8d3c6;display:flex;flex-direction:column}
+aside header{background:#0F5C4A;color:#F6F4EF;padding:20px}
+aside header .t{font-size:12px;text-transform:uppercase;letter-spacing:.08em;opacity:.8}aside header .n{font-size:18px;font-weight:700}
+.steps{padding:20px;display:flex;flex-direction:column;gap:12px}
+.step{background:#fff;border:1px solid #d8d3c6;border-radius:4px;padding:14px 16px}
+.step .k{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#0F5C4A}
+.step.done{border-left:4px solid #0F5C4A}.step.now{border:1.5px solid #16181D}
+.btn{display:inline-block;margin-top:10px;background:#0F5C4A;color:#fff;padding:8px 14px;border-radius:4px;font-weight:600}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.kv div{border-top:1px dashed #d8d3c6;padding-top:6px;font-size:12px}
+.kv .lot{font-size:22px;display:block}
+</style></head><body>
+<div class="page">
+<h1>Foresight Board — Saffron</h1><div class="meta">Exported Mon Nov 23 2026 · 14 workstreams</div>
+<div class="ws"><b>Stock Sync</b><div class="grid"><div>W/C</div><div>23/11</div><div>30/11</div><div>07/12</div><div>14/12</div><div>21/12</div><div>28/12</div><div>04/01</div><div>11/01</div><div>18/01</div><div>25/01</div>
+<div>Developer(s)</div><div><span class="chip">Aisha D. 25%</span></div><div><span class="chip">Aisha D. 25%</span></div><div></div><div><span class="chip">Aisha D. 25%</span></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+<div class="ws"><b>Supplier Portal</b><div class="grid"><div>Tester(s)</div><div><span class="chip">Felix D. 50%</span></div><div><span class="chip">Felix D. 50%</span></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+<div class="chat">
+<header><strong>Ask Foresight</strong><span class="lot" style="font-size:12px">DEMO · 23 NOV 26</span></header>
+<div class="msgs">
+<div class="q">Who is over-allocated next week?</div>
+<div class="a"><p><strong>2 people</strong> are over-allocated in W/C <span class="stamp ink">30 NOV 26</span></p>
+<div class="row"><span>Felix D.</span><span class="stamp red">135%</span></div>
+<div class="row"><span>Mei D.</span><span class="stamp red">120%</span></div>
+<div class="src">Source: Supplier Portal, Stock Sync, Order Hub · board read 10:30</div></div>
+<div class="q">Which epics are delayed?</div>
+<div class="a"><p>Delayed: <span class="stamp ink">K42-445</span> Order Hub, <span class="stamp amber">M07-424</span> Label Printing</p></div>
+</div>
+<div class="ask"><input value="Ask about workstreams, people, dates…"><button>Ask</button></div>
+</div>
+</div>
+<aside>
+<header><div class="t">Jira Reporting Assistant</div><div class="n">Foresight · Saffron</div></header>
+<div class="steps">
+<div class="step done"><div class="k">1 · Connected</div>Foresight at localhost:5500</div>
+<div class="step done"><div class="k">2 · Data read</div>2 pages · 14 workstreams · 39 issues
+<div class="kv"><div><span class="lot">17</span>person-weeks over</div><div><span class="lot red">3</span>delayed epics</div><div><span class="lot">92</span>items outstanding</div><div><span class="lot amber">3</span>overdue</div></div></div>
+<div class="step now"><div class="k">3 · Ask and report</div>Chat is open on the Foresight page.<br><span class="btn">Open chat</span></div>
+</div>
+</aside>
+</body></html>

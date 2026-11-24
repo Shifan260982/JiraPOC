@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T00:00:00Z",
+  "title": "Design System: Jira Reporting Assistant",
+  "extensions": {
+    "colorMeta": {
+      "accent":       { "role": "primary", "displayName": "Proof Blue", "canonical": "#3b5bdb", "tonalRamp": ["#141f4d", "#1f2f73", "#2f4bc0", "#3b5bdb", "#6b84e4", "#9cadee", "#cdd6f7", "#eef1fd"] },
+      "accent-hover": { "role": "primary", "displayName": "Proof Blue Deep", "canonical": "#2f4bc0", "tonalRamp": ["#141f4d", "#1f2f73", "#2f4bc0", "#3b5bdb", "#6b84e4", "#9cadee", "#cdd6f7", "#eef1fd"] },
+      "ink":          { "role": "neutral", "displayName": "Ink", "canonical": "#0a0a0a", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "ink-2":        { "role": "neutral", "displayName": "Graphite", "canonical": "#3d3d3d", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "muted":        { "role": "neutral", "displayName": "Ash", "canonical": "#6b6b6b", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "line":         { "role": "neutral", "displayName": "Hairline", "canonical": "#e8e8e8", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "line-strong":  { "role": "neutral", "displayName": "Hairline Strong", "canonical": "#d4d4d4", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "page":         { "role": "neutral", "displayName": "Page", "canonical": "#fafafa", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "surface":      { "role": "neutral", "displayName": "Surface", "canonical": "#ffffff", "tonalRamp": ["#0a0a0a", "#262626", "#3d3d3d", "#6b6b6b", "#d4d4d4", "#e8e8e8", "#fafafa", "#ffffff"] },
+      "danger":       { "role": "state", "displayName": "Alert Red", "canonical": "#b42318", "tonalRamp": ["#3d0b07", "#6b150e", "#b42318", "#d9493d", "#ea8a82", "#f5c1bc", "#fde4e1", "#fef3f2"] },
+      "danger-bg":    { "role": "state", "displayName": "Alert Wash", "canonical": "#fef3f2", "tonalRamp": ["#3d0b07", "#6b150e", "#b42318", "#d9493d", "#ea8a82", "#f5c1bc", "#fde4e1", "#fef3f2"] },
+      "warn":         { "role": "state", "displayName": "Caution Amber", "canonical": "#9a4a00", "tonalRamp": ["#2e1600", "#5c2c00", "#9a4a00", "#c2690f", "#e09a4f", "#f0c493", "#f9e3cc", "#fdf4ea"] }
+    },
+    "typographyMeta": {
+      "title":   { "displayName": "Title", "purpose": "Side panel product name (16px) and chat header title (15px). No display role exists." },
+      "claim":   { "displayName": "Claim", "purpose": "One-line statement directly above a proof frame; reading/sending status lines." },
+      "body":    { "displayName": "Body", "purpose": "Explanatory copy and chat paragraphs; field labels at 500." },
+      "label":   { "displayName": "Label", "purpose": "Proof-row labels and tabular figures; side panel section headings at 600 in muted grey." },
+      "caption": { "displayName": "Caption", "purpose": "Hints, sources line, chat mode/date line, proof-row detail, footer." }
+    },
+    "shadows": [
+      { "name": "float", "value": "0 16px 40px rgba(10,10,10,0.10), 0 2px 6px rgba(10,10,10,0.06)", "purpose": "Chat panel and launcher only, floating over the host page." },
+      { "name": "focus-halo", "value": "0 0 0 3px rgba(59,91,219,0.15)", "purpose": "Focused text inputs, paired with an accent border." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Chat panel rise (220ms), launcher press and hover (160ms), thinking dots." },
+      { "name": "rise", "value": "220ms: opacity 0 -> 1, translateY(8px) scale(0.98) -> none", "purpose": "Chat panel entrance; disabled under prefers-reduced-motion." },
+      { "name": "quiet-hover", "value": "120ms border-color, background", "purpose": "Suggestion buttons in the chat." }
+    ],
+    "breakpoints": [
+      { "name": "chat-compact", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one forward action in a section (Read the tool, Open chat on this page, Send).",
+      "html": "<button class=\"ds-btn-primary\">Read the tool</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 16px; border: 0; border-radius: 8px; background: var(--color-accent, #3b5bdb); color: #fff; font: 600 14px/1.5 \"Segoe UI\", system-ui, sans-serif; cursor: pointer; } .ds-btn-primary:hover { background: var(--color-accent-hover, #2f4bc0); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent, #3b5bdb); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.45; cursor: default; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Repeat or alternative actions (Read again, Stop, Open Foresight).",
+      "html": "<button class=\"ds-btn-secondary\">Read again</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 16px; border: 1px solid var(--color-line-strong, #d4d4d4); border-radius: 8px; background: var(--color-surface, #fff); color: var(--color-ink, #0a0a0a); font: 500 14px/1.5 \"Segoe UI\", system-ui, sans-serif; cursor: pointer; } .ds-btn-secondary:hover { background: var(--color-page, #fafafa); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--color-accent, #3b5bdb); outline-offset: 2px; } .ds-btn-secondary:disabled { opacity: 0.45; }"
+    },
+    {
+      "name": "Text Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Low-weight actions (Change, Done, downloads).",
+      "html": "<button class=\"ds-link\">Change</button>",
+      "css": ".ds-link { border: 0; background: none; padding: 0; color: var(--color-ink-2, #3d3d3d); font: 400 14px/1.5 \"Segoe UI\", system-ui, sans-serif; text-decoration: underline; text-decoration-color: var(--color-line-strong, #d4d4d4); text-underline-offset: 2px; cursor: pointer; } .ds-link:hover { color: var(--color-accent, #3b5bdb); text-decoration-color: currentColor; } .ds-link:focus-visible { outline: 2px solid var(--color-accent, #3b5bdb); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Settings fields and the chat compose input.",
+      "html": "<input class=\"ds-input\" placeholder=\"https://foresight.example.com/\" />",
+      "css": ".ds-input { width: 100%; padding: 8px 12px; border: 1px solid var(--color-line-strong, #d4d4d4); border-radius: 8px; background: var(--color-surface, #fff); color: var(--color-ink, #0a0a0a); font: 400 14px/1.5 \"Segoe UI\", system-ui, sans-serif; caret-color: var(--color-accent, #3b5bdb); } .ds-input::placeholder { color: var(--color-muted, #6b6b6b); } .ds-input:focus-visible { outline: none; border-color: var(--color-accent, #3b5bdb); box-shadow: 0 0 0 3px rgba(59,91,219,0.15); }"
+    },
+    {
+      "name": "Claim and Proof Frame",
+      "kind": "custom",
+      "refersTo": "proof-frame",
+      "description": "Signature: a semibold claim followed by hairline-framed rows, label left, figure right; alert figures in semibold red.",
+      "html": "<div class=\"ds-answer\"><p class=\"ds-claim\">2 people over-allocated next week:</p><ul class=\"ds-proof\"><li><span class=\"ds-l\">Felix D.</span><span class=\"ds-v ds-alert\">135%</span></li><li><span class=\"ds-l\">Mei D.</span><span class=\"ds-v ds-alert\">120%</span></li><li><span class=\"ds-l\">Pages read</span><span class=\"ds-v\">14</span></li></ul></div>",
+      "css": ".ds-answer { display: flex; flex-direction: column; gap: 8px; font: 400 14px/1.5 \"Segoe UI\", system-ui, sans-serif; color: var(--color-ink, #0a0a0a); } .ds-claim { margin: 0; font-weight: 600; line-height: 1.4; } .ds-proof { margin: 0; padding: 0; list-style: none; background: var(--color-page, #fafafa); border: 1px solid var(--color-line, #e8e8e8); border-radius: 8px; font-size: 13px; } .ds-proof li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; border-top: 1px solid var(--color-line, #e8e8e8); } .ds-proof li:first-child { border-top: 0; } .ds-l { color: var(--color-ink-2, #3d3d3d); } .ds-v { text-align: right; color: var(--color-ink, #0a0a0a); font-variant-numeric: tabular-nums; } .ds-v.ds-alert { color: var(--color-danger, #b42318); font-weight: 600; }"
+    },
+    {
+      "name": "Side Panel Section",
+      "kind": "card",
+      "refersTo": "section",
+      "description": "Hairline-topped block with a muted sentence-case heading.",
+      "html": "<section class=\"ds-section\"><h2>Source</h2><p>foresight.example.com/</p></section>",
+      "css": ".ds-section { padding: 20px; border-top: 1px solid var(--color-line, #e8e8e8); background: var(--color-surface, #fff); font: 400 14px/1.5 \"Segoe UI\", system-ui, sans-serif; color: var(--color-ink, #0a0a0a); } .ds-section h2 { margin: 0 0 12px; font-size: 13px; font-weight: 600; color: var(--color-muted, #6b6b6b); } .ds-section p { margin: 0; font-weight: 500; }"
+    },
+    {
+      "name": "Chat Launcher",
+      "kind": "button",
+      "refersTo": "chat-launcher",
+      "description": "Ink pill that opens the floating chat on Foresight pages.",
+      "html": "<button class=\"ds-launcher\"><svg viewBox=\"0 0 20 20\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 4.5h12a1.5 1.5 0 0 1 1.5 1.5v7a1.5 1.5 0 0 1-1.5 1.5H9l-4 3v-3H4A1.5 1.5 0 0 1 2.5 13V6A1.5 1.5 0 0 1 4 4.5Z\"/></svg> Ask</button>",
+      "css": ".ds-launcher { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 18px 0 14px; border: 1px solid #0a0a0a; border-radius: 22px; background: #0a0a0a; color: #fff; font: 600 14px/1.5 \"Segoe UI\", system-ui, sans-serif; cursor: pointer; box-shadow: 0 16px 40px rgba(10,10,10,0.10), 0 2px 6px rgba(10,10,10,0.06); transition: transform 160ms cubic-bezier(0.16,1,0.3,1), background 160ms cubic-bezier(0.16,1,0.3,1); } .ds-launcher:hover { background: #262626; } .ds-launcher:active { transform: translateY(1px); } .ds-launcher:focus-visible { outline: 2px solid #3b5bdb; outline-offset: 2px; }"
+    },
+    {
+      "name": "Suggestion Chip",
+      "kind": "chip",
+      "refersTo": "chat-suggestion",
+      "description": "Starter questions in an empty chat.",
+      "html": "<button class=\"ds-suggest\">Who is over-allocated next week?</button>",
+      "css": ".ds-suggest { text-align: left; padding: 9px 12px; border: 1px solid #e8e8e8; border-radius: 8px; background: #fff; color: #3d3d3d; font: 400 14px/1.5 \"Segoe UI\", system-ui, sans-serif; cursor: pointer; transition: border-color 120ms, background 120ms; } .ds-suggest:hover { border-color: #d4d4d4; background: #fafafa; color: #0a0a0a; } .ds-suggest:focus-visible { outline: 2px solid #3b5bdb; outline-offset: 2px; }"
+    },
+    {
+      "name": "Error Notice",
+      "kind": "custom",
+      "refersTo": "error-notice",
+      "description": "Server, permission and read failures.",
+      "html": "<p class=\"ds-error\" role=\"alert\">The assistant server didn't accept the data. Check it is running, then read again.</p>",
+      "css": ".ds-error { margin: 0; padding: 8px 12px; border-radius: 8px; background: var(--color-danger-bg, #fef3f2); color: var(--color-danger, #b42318); font: 400 13px/1.5 \"Segoe UI\", system-ui, sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Monochrome Proof",
+    "overview": "A quiet, near-colourless working tool whose one recurring gesture is evidence. Every summary, answer and warning list is a short claim in semibold followed directly by a hairline-framed block of rows: label on the left, figure on the right. The frame is the system's signature; everything else steps back so it reads first.\n\nDensity is moderate and calm: one system sans at regular and semibold, sentence case throughout, tabular numerals in every figure. Surfaces are white on a faint grey page, separated by 1px rules rather than shadows. Colour is spent sparingly: a single blue for the one primary action and focus, red only for states that are genuinely wrong (over-allocated, overdue, errors), amber only for \"check this\" notices.\n\nThe same world runs on two surfaces: the extension side panel (Tailwind v4 theme tokens) and the floating chat, which lives in a shadow root on the host page and re-declares the same values as custom properties.",
+    "keyCharacteristics": [
+      "Claim, then proof frame, for every answer, summary and warning list.",
+      "Neutral greyscale from #fafafa to #0a0a0a; one blue accent; red and amber reserved for state.",
+      "Hairline rules (1px #e8e8e8) do the structural work; shadow only where the chat floats over a foreign page.",
+      "One system sans, two working weights, sentence case, tabular numerals.",
+      "Gently rounded rectangles (8px) for every control and frame."
+    ],
+    "rules": [
+      { "name": "The One Blue Rule", "body": "Blue marks the one action that moves the user forward and the element that has focus. A section never has two blue buttons; once data exists, \"Read again\" drops to secondary.", "section": "colors" },
+      { "name": "The State-Only Colour Rule", "body": "Red and amber appear only when a figure or message is actually wrong or incomplete, and always alongside words that say so (\"over-allocated\", \"Stopped at the page limit\"). Colour is never the only signal.", "section": "colors" },
+      { "name": "The Tabular Figures Rule", "body": "Every number in a proof row uses tabular numerals and is right-aligned, so columns of figures scan vertically.", "section": "typography" },
+      { "name": "The Sentence Case Rule", "body": "Headings, buttons and labels are sentence case. No uppercase labels, no tracking.", "section": "typography" },
+      { "name": "The Hairline Over Shadow Rule", "body": "Inside a surface, structure is drawn with 1px rules. Shadow is reserved for something floating over someone else's page.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** follow every claim with its proof frame: hairline border, page-grey fill, label left, figure right.",
+      "**Do** keep one blue element per section: the forward action or the focused control.",
+      "**Do** pair every red or amber value with words that name the problem.",
+      "**Do** use tabular numerals and right alignment for every figure.",
+      "**Do** separate surfaces with 1px #e8e8e8 rules and the page/surface value step."
+    ],
+    "donts": [
+      "**Don't** use chat bubbles; the user's question is plain right-aligned muted text and the answer is claim plus proof.",
+      "**Don't** use blue for decoration, icons or headings.",
+      "**Don't** add shadows inside a surface; shadow belongs only to the floating chat.",
+      "**Don't** use uppercase labels, eyebrows or tracked small caps above headings.",
+      "**Don't** introduce a numbered-stepper flow; the side panel is sections, not steps."
+    ]
+  }
+}

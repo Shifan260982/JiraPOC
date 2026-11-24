@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:14px/1.5 "Segoe UI",Roboto,Arial,sans-serif;color:#0A0A0A;background:#FAFAFA;display:flex}
+.page{flex:1;padding:24px;position:relative;background:#fff}
+.page h1{font-size:20px;margin:0 0 4px}.meta{color:#6B6B6B;font-size:12px;margin-bottom:16px}
+.ws{border:1px solid #ececec;border-radius:8px;margin-bottom:16px;height:150px;opacity:.5}.ws b{display:block;padding:8px 12px}
+.chat{position:absolute;right:24px;bottom:24px;width:380px;height:560px;background:#fff;border:1px solid #e5e5e5;border-radius:12px;display:flex;flex-direction:column;box-shadow:0 20px 40px rgba(0,0,0,.08)}
+.chat header{padding:14px 16px;border-bottom:1px solid #eee;font-weight:600}
+.msgs{flex:1;padding:16px;display:flex;flex-direction:column;gap:14px}
+.q{align-self:flex-end;color:#6B6B6B}
+.claim{font-weight:600}.proof{margin-top:6px;border:1px solid #eee;border-radius:8px;background:#FAFAFA}
+.proof div{display:flex;justify-content:space-between;padding:6px 10px;border-top:1px solid #eee;font-size:13px}.proof div:first-child{border-top:0}
+.proof span:last-child{font-variant-numeric:tabular-nums}
+.ask{padding:12px;border-top:1px solid #eee;display:flex;gap:8px}.ask input{flex:1;border:1px solid #e5e5e5;border-radius:8px;padding:8px;font:inherit}
+.ask button{background:#3B5BDB;color:#fff;border:0;border-radius:8px;padding:0 14px}
+aside{width:400px;border-left:1px solid #eee;background:#FAFAFA;padding:24px}
+aside .n{font-size:18px;font-weight:600}aside .s{color:#6B6B6B;margin-bottom:20px}
+.card{background:#fff;border:1px solid #eee;border-radius:10px;padding:16px;margin-bottom:12px}
+.big{font-size:28px;font-weight:600}.btn{display:inline-block;background:#3B5BDB;color:#fff;border-radius:8px;padding:8px 14px;margin-top:8px}
+.ghost{display:inline-block;border:1px solid #ddd;border-radius:8px;padding:8px 14px;margin-top:8px}
+</style></head><body>
+<div class="page"><h1>Foresight Board — Saffron</h1><div class="meta">Exported Mon Nov 23 2026 · 14 workstreams</div>
+<div class="ws"><b>Stock Sync</b></div><div class="ws"><b>Supplier Portal</b></div>
+<div class="chat"><header>Assistant</header><div class="msgs">
+<div class="q">Who is over-allocated next week?</div>
+<div><div class="claim">Two people are over 100% in the week of 30 Nov.</div>
+<div class="proof"><div><span>Felix D.</span><span>135%</span></div><div><span>Mei D.</span><span>120%</span></div></div></div>
+<div class="q">Which epics are delayed?</div>
+<div><div class="claim">Three epics are delayed.</div><div class="proof"><div><span>K42-445 Order Hub</span><span>overdue child</span></div><div><span>M07-424 Label Printing</span><span>past due</span></div></div></div>
+</div><div class="ask"><input value="Ask a question"><button>Send</button></div></div></div>
+<aside><div class="n">Jira Reporting Assistant</div><div class="s">Foresight · Saffron</div>
+<div class="card">Data read<div class="big">14 workstreams</div>39 issues from 2 pages<br><span class="ghost">Read again</span></div>
+<div class="card">Ask questions on the Foresight page<br><span class="btn">Open chat</span></div></aside>
+</body></html>

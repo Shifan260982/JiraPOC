@@ -1,0 +1,10180 @@
+{
+ "scanned_at": "2026-11-23T10:30:00Z",
+ "date_order": "DMY",
+ "pages_visited": [
+  "http://localhost:5500/board.html",
+  "http://localhost:5500/issues.html"
+ ],
+ "tables": [
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 0,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Sep '26",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Stock Sync",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "Two stories at risk of slipping. 1 bug open on staging awaiting supplier data refresh.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "0 bugs 2 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 1 story",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 2 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 1 story",
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 1 story",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 8 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 7 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "7 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 6 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "UAT sign-off",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 40%",
+      "parts": [
+       {
+        "text": "Marcus D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50% Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50% Callum D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Felix D. 25%",
+      "parts": [
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown over"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 25%",
+      "parts": [
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 20% Felix D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 1,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27"
+   ],
+   "header_spans": [
+    1,
+    1,
+    2,
+    4,
+    4
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Supplier Portal",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "1 bug 8 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 9 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 1 story",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 9 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev Onsite testing",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       },
+       {
+        "text": "Onsite testing",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 40%",
+      "parts": [
+       {
+        "text": "Kwame D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Priya D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Elena D. 50%",
+      "parts": [
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 50%",
+      "parts": [
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 50% Elena D. 50%",
+      "parts": [
+       {
+        "text": "Priya D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Elena D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown over"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 50%",
+      "parts": [
+       {
+        "text": "Felix D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 2,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Label Printing",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "Printer firmware upgrade blocks two stories until mid-December.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "1 bug 6 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 6 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 6 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 8 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 9 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 0 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Go-live UAT sign-off",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       },
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 20%",
+      "parts": [
+       {
+        "text": "Sofia D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 100%",
+      "parts": [
+       {
+        "text": "Rahul D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Aisha D. 50%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 50%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 100% Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Priya D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 100% Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Priya D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 50%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 100% Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Priya D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 50% Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Aisha D. 40%",
+      "parts": [
+       {
+        "text": "Aisha D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 40%",
+      "parts": [
+       {
+        "text": "Aisha D. 40%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 40%",
+      "parts": [
+       {
+        "text": "Aisha D. 40%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 40%",
+      "parts": [
+       {
+        "text": "Aisha D. 40%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 40%",
+      "parts": [
+       {
+        "text": "Aisha D. 40%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 3,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Sep '26",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    4,
+    4
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Recall Tracker",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "0 bugs 0 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 2 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 0 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 8 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 2 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 6 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 3 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Dev focus - onsite bugs",
+      "parts": [
+       {
+        "text": "Dev focus - onsite bugs",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 100%",
+      "parts": [
+       {
+        "text": "Mei D. 100%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 100%",
+      "parts": [
+       {
+        "text": "Mei D. 100%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Ines D. 25% Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20% Aisha D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Aisha D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 20%",
+      "parts": [
+       {
+        "text": "Aisha D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20% Aisha D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Aisha D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 4,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Allergen Matrix",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "Awaiting sign-off on the revised allergen categories from the client.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "1 bug 7 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "7 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 6 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 7 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "7 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 5 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 2 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "UAT sign-off",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 20%",
+      "parts": [
+       {
+        "text": "Owen D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Ines D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Ines D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 100%",
+      "parts": [
+       {
+        "text": "Lucia D. 100%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 50%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 25% Felix D. 20%",
+      "parts": [
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown over"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 25%",
+      "parts": [
+       {
+        "text": "Aisha D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 5,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    2,
+    4,
+    4
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Order Hub",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "3 bugs 8 stories",
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 8 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 3 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 6 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 5 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Onsite testing",
+      "parts": [
+       {
+        "text": "Onsite testing",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "Onsite testing",
+      "parts": [
+       {
+        "text": "Onsite testing",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Kwame D. 50%",
+      "parts": [
+       {
+        "text": "Kwame D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 20%",
+      "parts": [
+       {
+        "text": "Mei D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Aisha D. 50%",
+      "parts": [
+       {
+        "text": "Aisha D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 25%",
+      "parts": [
+       {
+        "text": "Zara D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 6,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Pricing Engine",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "1 bug 1 story",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 5 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 5 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 3 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 1 story",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 5 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 25%",
+      "parts": [
+       {
+        "text": "Sofia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Owen D. 25%",
+      "parts": [
+       {
+        "text": "Owen D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Callum D. 100%",
+      "parts": [
+       {
+        "text": "Callum D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": "Callum D. 100% Aisha D. 20%",
+      "parts": [
+       {
+        "text": "Callum D. 100%",
+        "cls": "pchip fs-emp-permanent"
+       },
+       {
+        "text": "Aisha D. 20%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Freya D. 20%",
+      "parts": [
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20% Freya D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown over"
+       },
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Freya D. 20%",
+      "parts": [
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20% Freya D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Freya D. 20%",
+      "parts": [
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20% Freya D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 20% Freya D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       },
+       {
+        "text": "Freya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 7,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Sep '26",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Waste Reporting",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "New reporting scope agreed; estimates to follow.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "2 bugs 5 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 9 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 0 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 2 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 2 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 6 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 4 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 6 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "UAT sign-off",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Dev focus - onsite bugs Go-live",
+      "parts": [
+       {
+        "text": "Dev focus - onsite bugs",
+        "cls": "mchip"
+       },
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Ines D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 50%",
+      "parts": [
+       {
+        "text": "Ines D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 40%",
+      "parts": [
+       {
+        "text": "Zara D. 40%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 8,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Audit Trail",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "3 bugs 0 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 2 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 6 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 5 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "5 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 25%",
+      "parts": [
+       {
+        "text": "Marcus D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 25%",
+      "parts": [
+       {
+        "text": "Hamish D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Tomasz D. 50%",
+      "parts": [
+       {
+        "text": "Tomasz D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "Callum D. 50%",
+      "parts": [
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Callum D. 50%",
+      "parts": [
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 25%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 25% Callum D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Lucia D. 25% Callum D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 25%",
+        "cls": "pchip fs-emp-contract"
+       },
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Zara D. 50%",
+      "parts": [
+       {
+        "text": "Zara D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": "Zara D. 50%",
+      "parts": [
+       {
+        "text": "Zara D. 50%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 9,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Driver App",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "1 bug 0 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 4 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 9 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 2 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "UAT sign-off Go-live",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       },
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Hamish D. 20%",
+      "parts": [
+       {
+        "text": "Hamish D. 20%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Callum D. 50%",
+      "parts": [
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Callum D. 50%",
+      "parts": [
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Callum D. 50%",
+      "parts": [
+       {
+        "text": "Callum D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 20%",
+      "parts": [
+       {
+        "text": "Felix D. 20%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 10,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Aug '26",
+    "Sep '26",
+    "Oct '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Customer Returns",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "Returns flow depends on Order Hub API changes.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "2 bugs 8 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "8 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 4 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 0 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 2 stories",
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 3 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 2 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 1 story",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 0 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Dev focus - onsite bugs",
+      "parts": [
+       {
+        "text": "Dev focus - onsite bugs",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "UAT sign-off Go-live",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       },
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "Kwame D. 25%",
+      "parts": [
+       {
+        "text": "Kwame D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Kwame D. 25%",
+      "parts": [
+       {
+        "text": "Kwame D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 25%",
+      "parts": [
+       {
+        "text": "Rahul D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 25%",
+      "parts": [
+       {
+        "text": "Rahul D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 25%",
+      "parts": [
+       {
+        "text": "Rahul D. 25%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Elena D. 25%",
+      "parts": [
+       {
+        "text": "Elena D. 25%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "50% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 11,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Jul '26",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Batch Traceability",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "3 bugs 2 stories",
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 0 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "0 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 6 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "6 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 9 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "9 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 3 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Original Dev",
+      "parts": [
+       {
+        "text": "Original Dev",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 20%",
+      "parts": [
+       {
+        "text": "Marcus D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 100%",
+      "parts": [
+       {
+        "text": "Lucia D. 100%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "—"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "45% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 12,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Project Saffron",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "Data Migration",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "3 bugs 1 story",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "1 story",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 4 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "3 bugs 3 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "3 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 4 stories",
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "UAT sign-off",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Dev focus - onsite bugs",
+      "parts": [
+       {
+        "text": "Dev focus - onsite bugs",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 40%",
+      "parts": [
+       {
+        "text": "Sofia D. 40%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 40%",
+      "parts": [
+       {
+        "text": "Sofia D. 40%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 40%",
+      "parts": [
+       {
+        "text": "Sofia D. 40%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Sofia D. 40%",
+      "parts": [
+       {
+        "text": "Sofia D. 40%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "Sofia D. 40%",
+      "parts": [
+       {
+        "text": "Sofia D. 40%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Mei D. 50%",
+      "parts": [
+       {
+        "text": "Mei D. 50%",
+        "cls": "pchip fs-emp-contract over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": "Priya D. 20%",
+      "parts": [
+       {
+        "text": "Priya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 50%",
+      "parts": [
+       {
+        "text": "Rahul D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": "Rahul D. 50% Priya D. 20%",
+      "parts": [
+       {
+        "text": "Rahul D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       },
+       {
+        "text": "Priya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 20%",
+      "parts": [
+       {
+        "text": "Priya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Priya D. 20%",
+      "parts": [
+       {
+        "text": "Priya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Ines D. 20%",
+      "parts": [
+       {
+        "text": "Ines D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "Priya D. 20%",
+      "parts": [
+       {
+        "text": "Priya D. 20%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "60% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/board.html",
+   "page_title": "Foresight Board — Saffron",
+   "table_index": 13,
+   "pagination_step": 0,
+   "headers": [
+    "Delivery Point",
+    "Nov '26",
+    "Dec '26",
+    "Jan '27",
+    "Unscheduled"
+   ],
+   "header_spans": [
+    1,
+    2,
+    4,
+    4,
+    1
+   ],
+   "context": [
+    {
+     "text": "Foresight Board — Saffron",
+     "cls": ""
+    },
+    {
+     "text": "Other workstreams",
+     "cls": "rpt-group-hdr"
+    },
+    {
+     "text": "BAU Support",
+     "cls": "rpt-ws-hdr"
+    },
+    {
+     "text": "Rota covers out-of-hours support for all live services.",
+     "cls": "rpt-ws-note"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "Outstanding"
+     },
+     {
+      "text": "3 bugs 4 stories",
+      "span": 2,
+      "parts": [
+       {
+        "text": "3 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "2 bugs 2 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "2 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "1 bug 4 stories",
+      "span": 4,
+      "parts": [
+       {
+        "text": "1 bug",
+        "cls": "cbug"
+       },
+       {
+        "text": "4 stories",
+        "cls": "cstory"
+       }
+      ]
+     },
+     {
+      "text": "0 bugs 2 stories",
+      "parts": [
+       {
+        "text": "0 bugs",
+        "cls": "cbug"
+       },
+       {
+        "text": "2 stories",
+        "cls": "cstory"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "text": "W/C"
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": "28/12/2026"
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "11/01/2027"
+     },
+     {
+      "text": "18/01/2027"
+     },
+     {
+      "text": "25/01/2027"
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tasks / Milestones"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "UAT sign-off",
+      "parts": [
+       {
+        "text": "UAT sign-off",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Dev focus - onsite bugs Onsite testing",
+      "parts": [
+       {
+        "text": "Dev focus - onsite bugs",
+        "cls": "mchip"
+       },
+       {
+        "text": "Onsite testing",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Go-live",
+      "parts": [
+       {
+        "text": "Go-live",
+        "cls": "mchip"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Scrum Master"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Marcus D. 50%",
+      "parts": [
+       {
+        "text": "Marcus D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "F&B Specialist"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Lead Developer(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 50%",
+      "parts": [
+       {
+        "text": "Rahul D. 50%",
+        "cls": "pchip fs-emp-permanent"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Rahul D. 50%",
+      "parts": [
+       {
+        "text": "Rahul D. 50%",
+        "cls": "pchip fs-emp-permanent over"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Developer(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Lucia D. 50%",
+      "parts": [
+       {
+        "text": "Lucia D. 50%",
+        "cls": "pchip fs-emp-contract"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "Tester(s)"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "Felix D. 25%",
+      "parts": [
+       {
+        "text": "Felix D. 25%",
+        "cls": "pchip fs-emp-unknown"
+       }
+      ]
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "—"
+     }
+    ],
+    [
+     {
+      "text": "% Focus"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "35% Stories"
+     },
+     {
+      "text": "—"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/issues.html",
+   "page_title": "Foresight — Jira issues",
+   "table_index": 0,
+   "pagination_step": 0,
+   "headers": [
+    "Key",
+    "Summary",
+    "Issue Type",
+    "Status",
+    "Due date"
+   ],
+   "header_spans": [],
+   "context": [
+    {
+     "text": "Foresight — Jira issues",
+     "cls": ""
+    },
+    {
+     "text": "Epics",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "K41-410",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-410"
+     },
+     {
+      "text": "Stock Sync - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "22/01/2027"
+     }
+    ],
+    [
+     {
+      "text": "K42-417",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-417"
+     },
+     {
+      "text": "Supplier Portal - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "27/11/2026"
+     }
+    ],
+    [
+     {
+      "text": "M07-424",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-424"
+     },
+     {
+      "text": "Label Printing - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "22/01/2027"
+     }
+    ],
+    [
+     {
+      "text": "T19-431",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-431"
+     },
+     {
+      "text": "Recall Tracker - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-438",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-438"
+     },
+     {
+      "text": "Allergen Matrix - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "11/12/2026"
+     }
+    ],
+    [
+     {
+      "text": "K42-445",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-445"
+     },
+     {
+      "text": "Order Hub - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "25/12/2026"
+     }
+    ],
+    [
+     {
+      "text": "M07-452",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-452"
+     },
+     {
+      "text": "Pricing Engine - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "13/11/2026"
+     }
+    ],
+    [
+     {
+      "text": "T19-459",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-459"
+     },
+     {
+      "text": "Waste Reporting - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-466",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-466"
+     },
+     {
+      "text": "Audit Trail - Feature Delivery Programme"
+     },
+     {
+      "text": "Epic"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "27/11/2026"
+     }
+    ]
+   ]
+  },
+  {
+   "page_url": "http://localhost:5500/issues.html",
+   "page_title": "Foresight — Jira issues",
+   "table_index": 1,
+   "pagination_step": 0,
+   "headers": [
+    "Issue key",
+    "Summary",
+    "Issue Type",
+    "Status",
+    "Status category",
+    "Priority",
+    "Assignee",
+    "Parent key",
+    "Delivery Point",
+    "Due date",
+    "Blocked by"
+   ],
+   "header_spans": [],
+   "context": [
+    {
+     "text": "Foresight — Jira issues",
+     "cls": ""
+    },
+    {
+     "text": "Stories",
+     "cls": "rpt-ws-hdr"
+    }
+   ],
+   "rows": [
+    [
+     {
+      "text": "K41-3104",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3104"
+     },
+     {
+      "text": "Filter waste categories via the nightly job"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Marcus Doe"
+     },
+     {
+      "text": "K41-410"
+     },
+     {
+      "text": "Jan 2027"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3118",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3118"
+     },
+     {
+      "text": "Notify on driver shift times in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Freya Doe"
+     },
+     {
+      "text": "K42-417"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3127",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3127"
+     },
+     {
+      "text": "Filter order cut-off times on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Felix Doe"
+     },
+     {
+      "text": "M07-424"
+     },
+     {
+      "text": "Jan 2027"
+     },
+     {
+      "text": "30/11/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "T19-3141",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3141"
+     },
+     {
+      "text": "Sync waste categories in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Marcus Doe"
+     },
+     {
+      "text": "T19-431"
+     },
+     {
+      "text": "Nov 2026"
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3157",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3157"
+     },
+     {
+      "text": "Audit driver shift times in the mobile app"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Lucia Doe"
+     },
+     {
+      "text": "K41-438"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "16/11/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3168",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3168"
+     },
+     {
+      "text": "Recalculate order cut-off times in the mobile app"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Mei Doe"
+     },
+     {
+      "text": "K42-445"
+     },
+     {
+      "text": "Nov 2026"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3186",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3186"
+     },
+     {
+      "text": "Audit waste categories on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Highest"
+     },
+     {
+      "text": "Kwame Doe"
+     },
+     {
+      "text": "M07-452"
+     },
+     {
+      "text": "Dec 2026"
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "T19-3195",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3195"
+     },
+     {
+      "text": "Export allergen flags for store users"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Darius Doe"
+     },
+     {
+      "text": "T19-459"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3204",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3204"
+     },
+     {
+      "text": "Filter order cut-off times for store users"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Priya Doe"
+     },
+     {
+      "text": "K41-466"
+     },
+     {
+      "text": "Jan 2027"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "M07-3186"
+     }
+    ],
+    [
+     {
+      "text": "K41-3220",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3220"
+     },
+     {
+      "text": "Import label templates on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Ines Doe"
+     },
+     {
+      "text": "K41-410"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3232",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3232"
+     },
+     {
+      "text": "Validate stock adjustments on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Ines Doe"
+     },
+     {
+      "text": "K42-417"
+     },
+     {
+      "text": "Jan 2027"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3250",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3250"
+     },
+     {
+      "text": "Notify on order cut-off times in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Marcus Doe"
+     },
+     {
+      "text": "M07-424"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "T19-3261",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3261"
+     },
+     {
+      "text": "Notify on order cut-off times in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Awaiting Information"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Freya Doe"
+     },
+     {
+      "text": "T19-431"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3275",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3275"
+     },
+     {
+      "text": "Recalculate supplier batch codes in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Ready For Development"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Tomasz Doe"
+     },
+     {
+      "text": "K41-438"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "04/01/2027"
+     },
+     {
+      "text": "M07-3250"
+     }
+    ],
+    [
+     {
+      "text": "K42-3284",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3284"
+     },
+     {
+      "text": "Import waste categories via the nightly job"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Ready For Development"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Zara Doe"
+     },
+     {
+      "text": "K42-445"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3296",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3296"
+     },
+     {
+      "text": "Archive stock adjustments in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "In Development"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Low"
+     },
+     {
+      "text": "Sofia Doe"
+     },
+     {
+      "text": "M07-452"
+     },
+     {
+      "text": "Nov 2026"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "T19-3316",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3316"
+     },
+     {
+      "text": "Export recall notices on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "In Development"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Kwame Doe"
+     },
+     {
+      "text": "T19-459"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "21/12/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3328",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3328"
+     },
+     {
+      "text": "Sync price overrides in the mobile app"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "In Development"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Marcus Doe"
+     },
+     {
+      "text": "K41-466"
+     },
+     {
+      "text": "Dec 2026"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3336",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3336"
+     },
+     {
+      "text": "Validate price overrides on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Ready For CAB"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Lucia Doe"
+     },
+     {
+      "text": "K41-410"
+     },
+     {
+      "text": "Dec 2026"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3354",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3354"
+     },
+     {
+      "text": "Archive price overrides on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Post Development"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "High"
+     },
+     {
+      "text": "Aisha Doe"
+     },
+     {
+      "text": "K42-417"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3365",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3365"
+     },
+     {
+      "text": "Display stock adjustments for store users"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "In Testing"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Hamish Doe"
+     },
+     {
+      "text": "M07-424"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "23/11/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "T19-3374",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3374"
+     },
+     {
+      "text": "Display label templates via the nightly job"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "In Testing"
+     },
+     {
+      "text": "In Progress"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Hamish Doe"
+     },
+     {
+      "text": "T19-431"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3387",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3387"
+     },
+     {
+      "text": "Recalculate price overrides for store users"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Callum Doe"
+     },
+     {
+      "text": "K41-438"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3400",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3400"
+     },
+     {
+      "text": "Validate stock adjustments for store users"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Aisha Doe"
+     },
+     {
+      "text": "K42-445"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "16/11/2026"
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "M07-3418",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3418"
+     },
+     {
+      "text": "Archive returns reasons in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Sofia Doe"
+     },
+     {
+      "text": "M07-452"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "14/12/2026"
+     },
+     {
+      "text": "K42-3400"
+     }
+    ],
+    [
+     {
+      "text": "T19-3434",
+      "href": "https://harbourline.example.atlassian.net/browse/T19-3434"
+     },
+     {
+      "text": "Display waste categories via the nightly job"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "Done"
+     },
+     {
+      "text": "High"
+     },
+     {
+      "text": "Marcus Doe"
+     },
+     {
+      "text": "T19-459"
+     },
+     {
+      "text": "Jan 2027"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K41-3442",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3442"
+     },
+     {
+      "text": "Sync price overrides on the dashboard"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Priya Doe"
+     },
+     {
+      "text": "K41-466"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "T19-3434"
+     }
+    ],
+    [
+     {
+      "text": "K41-3457",
+      "href": "https://harbourline.example.atlassian.net/browse/K41-3457"
+     },
+     {
+      "text": "Validate driver shift times in the mobile app"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "Medium"
+     },
+     {
+      "text": "Tomasz Doe"
+     },
+     {
+      "text": "K41-410"
+     },
+     {
+      "text": "Nov 2026"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": ""
+     }
+    ],
+    [
+     {
+      "text": "K42-3473",
+      "href": "https://harbourline.example.atlassian.net/browse/K42-3473"
+     },
+     {
+      "text": "Archive allergen flags in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "High"
+     },
+     {
+      "text": "Aisha Doe"
+     },
+     {
+      "text": "K42-417"
+     },
+     {
+      "text": "Dec 2026"
+     },
+     {
+      "text": "09/11/2026"
+     },
+     {
+      "text": "T19-3261"
+     }
+    ],
+    [
+     {
+      "text": "M07-3483",
+      "href": "https://harbourline.example.atlassian.net/browse/M07-3483"
+     },
+     {
+      "text": "Sync order cut-off times in the portal"
+     },
+     {
+      "text": "Story"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "To Do"
+     },
+     {
+      "text": "High"
+     },
+     {
+      "text": "Elena Doe"
+     },
+     {
+      "text": "M07-424"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "07/12/2026"
+     },
+     {
+      "text": "T19-3374"
+     }
+    ]
+   ]
+  }
+ ]
+}

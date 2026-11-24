@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:14px/1.45 "Segoe UI",Roboto,Arial,sans-serif;color:#1B1F24;background:#fff;display:flex}
+.page{flex:1;padding:24px;position:relative}
+.page h1{font-size:20px;margin:0 0 4px}.meta{color:#6b6f76;font-size:12px;margin-bottom:16px}
+.ws{border:1px solid #e3e5e8;border-radius:8px;margin-bottom:16px;opacity:.5;height:150px}.ws b{display:block;padding:8px 12px;background:#f8fafc;border-bottom:1px solid #e3e5e8}
+.chat{position:absolute;right:24px;bottom:24px;width:390px;height:570px;background:#fff;border:2px solid #1B1F24;border-radius:10px;display:flex;flex-direction:column;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.chat header{padding:12px 16px;border-bottom:2px solid #1B1F24;display:flex;justify-content:space-between;font-weight:700}
+.msgs{flex:1;padding:16px;display:flex;flex-direction:column;gap:12px}
+.q{align-self:flex-end;background:#2F6FD6;color:#fff;padding:8px 12px;border-radius:14px}
+.a{border:1px solid #c9d1dc;border-radius:8px;padding:12px}
+.strip{display:grid;grid-template-columns:70px repeat(5,1fr);margin-top:10px;font-size:11px;border-top:1px solid #9AA7B8}
+.strip div{padding:6px 4px;border-bottom:1px solid #dfe4ea;border-right:1px solid #dfe4ea;text-align:center}
+.strip .now{background:linear-gradient(90deg,transparent 46%,#E03A3E 46%,#E03A3E 54%,transparent 54%)}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin:0 1px}
+.r{background:#E03A3E}.y{background:#F2C230}.b{background:#2F6FD6}.g{background:#2E9E5B}
+.ask{padding:12px;border-top:2px solid #1B1F24;display:flex;gap:8px}.ask input{flex:1;padding:8px;border:1px solid #9AA7B8;border-radius:6px;font:inherit}
+.ask button{background:#1B1F24;color:#fff;border:0;border-radius:6px;padding:0 14px}
+aside{width:400px;border-left:2px solid #1B1F24;display:flex;flex-direction:column}
+aside header{padding:18px 20px;border-bottom:2px solid #1B1F24}aside header .n{font-size:18px;font-weight:700}
+.sec{padding:16px 20px;border-bottom:1px solid #dfe4ea}.sec h3{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.btn{display:inline-block;background:#2F6FD6;color:#fff;padding:8px 14px;border-radius:6px;font-weight:600;margin-top:8px}
+.legend{font-size:12px;display:flex;gap:12px;margin-top:8px}
+</style></head><body>
+<div class="page"><h1>Foresight Board — Saffron</h1><div class="meta">Exported Mon Nov 23 2026 · 14 workstreams</div>
+<div class="ws"><b>Stock Sync</b></div><div class="ws"><b>Supplier Portal</b></div>
+<div class="chat"><header><span>Ask the planner</span><span>Demo</span></header>
+<div class="msgs"><div class="q">What is Priya working on?</div>
+<div class="a">Priya D. is within capacity for the next 4 weeks.
+<div class="strip"><div></div><div class="now">23 Nov</div><div>30 Nov</div><div>7 Dec</div><div>14 Dec</div><div>21 Dec</div>
+<div>Supplier</div><div><span class="dot b"></span><span class="dot b"></span></div><div><span class="dot b"></span><span class="dot b"></span></div><div><span class="dot b"></span><span class="dot b"></span></div><div><span class="dot b"></span><span class="dot b"></span></div><div></div>
+<div>Migration</div><div><span class="dot y"></span></div><div></div><div></div><div><span class="dot y"></span></div><div></div></div></div>
+<div class="q">Who is over-allocated next week?</div>
+<div class="a"><span class="dot r"></span> Felix D. 135% · <span class="dot r"></span> Mei D. 120%</div></div>
+<div class="ask"><input value="Ask about the plan…"><button>Ask</button></div></div></div>
+<aside><header><div class="n">Jira Reporting Assistant</div>Foresight · Saffron</header>
+<div class="sec"><h3>This week</h3>
+<div class="strip"><div></div><div class="now">Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div>
+<div>Felix D.</div><div><span class="dot r"></span><span class="dot r"></span><span class="dot r"></span></div><div></div><div></div><div></div><div></div>
+<div>Mei D.</div><div><span class="dot r"></span><span class="dot r"></span></div><div></div><div></div><div></div><div></div></div>
+<div class="legend"><span><span class="dot b"></span>25%</span><span><span class="dot r"></span>over</span></div></div>
+<div class="sec"><h3>Data</h3>2 pages read · 14 workstreams · 39 issues<br><span class="btn">Read again</span></div>
+<div class="sec"><h3>Ask</h3><span class="btn">Open chat on page</span></div></aside>
+</body></html>

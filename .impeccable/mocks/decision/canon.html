@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:14px/1.5 "Segoe UI",Roboto,Arial,sans-serif;color:#111827;background:#fff;display:flex}
+.page{flex:1;padding:24px;position:relative}
+.page h1{font-size:20px;margin:0 0 4px}.meta{color:#6b7280;font-size:12px;margin-bottom:16px}
+.ws{border:1px solid #e5e7eb;border-radius:8px;margin-bottom:16px;height:150px;opacity:.5}.ws b{display:block;padding:8px 12px}
+.chat{position:absolute;right:24px;bottom:96px;width:370px;height:500px;background:#fff;border-radius:16px;box-shadow:0 20px 50px rgba(17,24,39,.2);display:flex;flex-direction:column;overflow:hidden}
+.chat header{background:#2563EB;color:#fff;padding:16px;font-weight:600}
+.msgs{flex:1;padding:16px;display:flex;flex-direction:column;gap:10px;background:#F3F4F6}
+.q{align-self:flex-end;background:#2563EB;color:#fff;padding:8px 12px;border-radius:16px 16px 4px 16px}
+.a{align-self:flex-start;background:#fff;padding:10px 12px;border-radius:16px 16px 16px 4px;max-width:85%}
+.ask{padding:12px;display:flex;gap:8px}.ask input{flex:1;border:1px solid #e5e7eb;border-radius:20px;padding:8px 12px;font:inherit}
+.launch{position:absolute;right:24px;bottom:24px;width:56px;height:56px;border-radius:50%;background:#2563EB}
+aside{width:400px;border-left:1px solid #e5e7eb;padding:24px}
+.n{font-size:18px;font-weight:600;margin-bottom:20px}
+.step{display:flex;gap:12px;margin-bottom:18px}.num{width:28px;height:28px;border-radius:50%;background:#2563EB;color:#fff;display:flex;align-items:center;justify-content:center;flex:none}
+.num.off{background:#e5e7eb;color:#6b7280}.btn{display:inline-block;background:#2563EB;color:#fff;border-radius:8px;padding:8px 14px;margin-top:6px}
+</style></head><body>
+<div class="page"><h1>Foresight Board — Saffron</h1><div class="meta">Exported Mon Nov 23 2026 · 14 workstreams</div>
+<div class="ws"><b>Stock Sync</b></div><div class="ws"><b>Supplier Portal</b></div>
+<div class="chat"><header>Project assistant</header><div class="msgs">
+<div class="q">Who is over-allocated next week?</div>
+<div class="a">Felix D. (135%) and Mei D. (120%) in the week of 30 Nov.</div>
+<div class="q">Which epics are delayed?</div><div class="a">K42-445 Order Hub and M07-424 Label Printing.</div>
+</div><div class="ask"><input value="Type a message…"></div></div><div class="launch"></div></div>
+<aside><div class="n">Jira Reporting Assistant</div>
+<div class="step"><div class="num">1</div><div><b>Connect</b><br>Foresight at localhost:5500</div></div>
+<div class="step"><div class="num">2</div><div><b>Read data</b><br>14 workstreams, 39 issues<br><span class="btn">Read again</span></div></div>
+<div class="step"><div class="num off">3</div><div><b>Ask</b><br>Open the chat on the page</div></div></aside>
+</body></html>
