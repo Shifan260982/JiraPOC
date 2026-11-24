@@ -73,6 +73,8 @@ def test_issue_pages_are_mapped(dataset):
     ("What are the major blockers?", "blockers"),
     ("Which tasks are overdue?", "overdue_issues"),
     ("Which epics are delayed?", "delayed_epics"),
+    ("Which workstreams are behind?", "delayed_epics"),
+    ("List the workstreams", "list_workstreams"),
     ("What is K41-3157 about?", "issue_details"),
     ("Which tasks are assigned to Lucia Doe?", "assigned_issues"),
     ("How many stories are in progress?", "project_status"),
