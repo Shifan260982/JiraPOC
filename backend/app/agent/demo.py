@@ -71,13 +71,14 @@ def route(ts: Toolset, message: str) -> tuple[str, dict[str, Any]]:
             month = next((mo for mo in MONTHS if re.search(rf"\b{mo}", m)), None)
             year = re.search(r"\b(20\d\d)\b", m)
             return "outstanding_work", {"month": f"{month} {year.group(1)}" if month and year else month}
-        if _has(m, "workstreams", "list"):
-            return "list_workstreams", {}
     if _has(m, "status", "summary", "overview", "update", "how are we", "report"):
         return "project_status", {}
+    if ts.ds.projects and _has(m, "delay", "late", "behind", "slipp"):
+        return "delayed_epics", {}
+    # After the delay check: "Which workstreams are behind?" asks about delay, not for the list.
+    if rs and _has(m, "workstreams", "list"):
+        return "list_workstreams", {}
     if ts.ds.projects:
-        if _has(m, "delay", "late", "behind", "slipp"):
-            return "delayed_epics", {}
         if _has(m, "block", "imped"):
             return "blockers", {}
         if _has(m, "overdue", "past due", "missed"):
