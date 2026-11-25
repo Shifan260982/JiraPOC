@@ -38,7 +38,8 @@ $env:LLM_PROVIDER = "ollama"; $env:LLM_MODEL = "llama3.2:3b"
 ```
 
 Port 8001 is the default because 8000 is often taken by other local services; the extension's
-"Assistant server" setting must match.
+"Assistant server" setting must match. The extension defaults to the hosted test backend
+(`https://jirapoc-production.up.railway.app`); set it to `http://localhost:8001` to use a local one.
 
 ## Extension (Chrome or Edge 116+)
 

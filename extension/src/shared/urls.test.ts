@@ -53,6 +53,6 @@ describe("settings", () => {
     expect(shouldFollow("https://other.example.com/board.html", s)).toBe(false);
   });
   it("requests only the tool and backend origins", () => {
-    expect(requiredOrigins(settings)).toEqual(["https://tool.example.com/*", "http://localhost:8001/*"]);
+    expect(requiredOrigins(settings)).toEqual(["https://tool.example.com/*", "https://jirapoc-production.up.railway.app/*"]);
   });
 });
