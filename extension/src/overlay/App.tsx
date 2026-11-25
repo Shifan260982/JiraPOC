@@ -135,8 +135,10 @@ export function ChatApp({ send, openSignal }: { send: Send; openSignal: number }
     void ask(draft);
   };
 
-  const modeLabel = status?.mode === "llm" ? `AI model${status.model ? ` ${status.model}` : ""}` : "Demo mode, no AI model";
-  const asOf = status?.as_of ? new Date(status.as_of).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : null;
+  const modeLabel = status?.mode === "llm" ? "AI model active" : "AI model offline";
+  const asOf = status?.read_at
+    ? new Date(status.read_at).toLocaleString("en-GB", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false })
+    : status?.as_of ? new Date(status.as_of).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : null;
 
   if (!open) {
     return (

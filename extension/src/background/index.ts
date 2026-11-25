@@ -34,7 +34,11 @@ chrome.runtime.onMessage.addListener((msg: OverlayRequest, sender, sendResponse)
     if (session && !session.toolOrigins.includes(new URL(sender.tab!.url!).origin)) {
       return sendResponse({ ok: false, error: "The assistant only works on the tool's pages." });
     }
-    if (msg.type === "chat:status") sendResponse(await callBackend<ChatStatus>("/api/v1/chat/status"));
+    if (msg.type === "chat:status") {
+      const res = await callBackend<ChatStatus>("/api/v1/chat/status");
+      // The board's as_of has no time; when the user read the tool does.
+      sendResponse(res.ok && session ? { ok: true, data: { ...res.data, read_at: session.readAt } } : res);
+    }
     else if (msg.type === "chat:ask") {
       sendResponse(await callBackend<ChatReply>("/api/v1/chat", {
         method: "POST", body: JSON.stringify({ message: msg.message, history: msg.history.slice(-20) }),

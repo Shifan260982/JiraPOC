@@ -9,7 +9,8 @@ export const DEFAULT_SETTINGS: Settings = {
   maxPages: 50,
   nextPageSelector: "",
   maxPaginationClicks: 50,
-  backendUrl: "http://localhost:8001",
+  // Hosted test backend; set "Assistant server" to http://localhost:8001 to use a local one.
+  backendUrl: "https://jirapoc-production.up.railway.app",
   dateOrder: "DMY",
 };
 

@@ -21,6 +21,8 @@ export interface ChatStatus {
   mode: "demo" | "llm";
   model?: string | null;
   as_of: string | null;
+  /** Added by the extension: ISO time the tool was read. */
+  read_at?: string;
   projects: string[];
   workstreams: number;
   suggestions: string[];
