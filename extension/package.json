@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && vite build && vite build -c vite.overlay.config.ts",
+    "build": "tsc --noEmit && node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\" && vite build && vite build -c vite.overlay.config.ts",
     "dev": "vite build -c vite.overlay.config.ts && vite build --watch --mode development",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",

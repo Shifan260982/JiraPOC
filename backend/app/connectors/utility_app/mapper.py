@@ -52,7 +52,6 @@ class UtilityScan(BaseModel):
 # ---- Mapping rules ----
 
 KEY_RE = re.compile(r"[A-Z][A-Z0-9_]*-\d+")
-BROWSE_RE = re.compile(r"/browse/([A-Z][A-Z0-9_]*-\d+)")
 EMPTY = {"", "-", "–", "—", "n/a", "na", "null", "unassigned", "not set"}
 TRUTHY = {"yes", "y", "true", "1", "flagged", "impediment", "✓", "✔"}
 
@@ -146,14 +145,6 @@ def _mostly_keys(table: ScannedTable, col: int) -> bool:
     return bool(values) and sum(bool(KEY_RE.fullmatch(v)) for v in values) / len(values) >= 0.8
 
 
-def _issue_url(key: str, row: list[ScannedCell], page_url: str) -> str:
-    """Prefer a link to the issue itself (Jira /browse/KEY), else the tool page the row was read from."""
-    for cell in row:
-        if cell.href and (m := BROWSE_RE.search(cell.href)) and m.group(1) == key:
-            return cell.href
-    return page_url
-
-
 class _Warnings:
     def __init__(self) -> None:
         self.counts: Counter[str] = Counter()
@@ -182,8 +173,8 @@ def map_scan(scan: UtilityScan) -> tuple[list[ProjectSnapshot], list[str], dict[
         for row in table.rows:
             if key_col >= len(row) or not KEY_RE.fullmatch(key := row[key_col].text.strip()):
                 continue
+            # Sources link to the page the row was read from, never to a link found in the row.
             rec = records.setdefault(key, {"_page_url": table.page_url})
-            rec.setdefault("_url", _issue_url(key, row, table.page_url))
             for i, field in cols.items():
                 if i < len(row) and (v := _value(row[i].text)) is not None:
                     rec.setdefault(field, v)
@@ -273,7 +264,7 @@ def _to_issue(key: str, rec: dict[str, Any], order: Literal["DMY", "MDY"], warni
 
     return Issue(
         key=key,
-        url=rec["_url"],
+        url=rec["_page_url"],
         kind=KIND_BY_TYPE.get(_norm(raw_type), IssueKind.OTHER),
         raw_type=raw_type,
         summary=rec.get("summary", ""),

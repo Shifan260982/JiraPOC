@@ -41,7 +41,7 @@ describe("shouldFollow", () => {
 
 describe("settings", () => {
   it("requires only the tool address", () => {
-    expect(validateSettings(DEFAULT_SETTINGS)).toEqual(["Enter the address of the Foresight tool."]);
+    expect(validateSettings(DEFAULT_SETTINGS)).toEqual(["Choose at least one page to read."]);
     expect(validateSettings({ ...DEFAULT_SETTINGS, startUrls: ["https://tool.example.com/"] })).toEqual([]);
   });
   it("rejects a link pattern typed as the tool address", () => {

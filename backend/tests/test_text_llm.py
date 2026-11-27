@@ -86,7 +86,10 @@ def test_invented_issue_key_is_replaced_by_computed_claim(api, ts):
 def test_unmatched_question_answers_from_overview(api, ts):
     api({"a/first": "NOT IN DATA"})
     a = text_llm.answer(ts, "What is the meaning of life?", [])
-    assert a.tools_used == ["project_status"] and a.text == text_llm.NOT_ANSWERED
+    assert a.tools_used == ["project_status"]
+    # A helpful reply instead of a bare refusal: what the pages cover and questions they can answer.
+    assert a.text.startswith("I couldn't find that in the pages that were read. They cover the ")
+    assert "workstreams" in a.text and "Jira issues in K41" in a.text and "\n- " in a.text and "read again" in a.text
 
 
 class ScriptedHTTP(FakeHTTP):

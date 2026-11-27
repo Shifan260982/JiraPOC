@@ -16,7 +16,7 @@ const area = (name: string) => ({
   get: async (key: string) => ({ [key]: store[name][key] }),
   set: async (items: Record<string, unknown>) => void Object.assign(store[name], items),
 });
-store.local.settings = { startUrls: ["http://localhost:5500/"], backendUrl: location.origin };
+store.local.settings = { startUrls: [], backendUrl: location.origin };
 
 let openChat = () => {};
 const scan: ScanResult = {
@@ -26,14 +26,22 @@ const scan: ScanResult = {
     paginationStep: t.pagination_step, headers: t.headers, headerSpans: t.header_spans, context: t.context, rows: t.rows })),
 };
 const noop = { addListener() {}, removeListener() {} };
+let tabUrl = "about:blank";
+const loaded = new Set<(id: number, info: { status: string }) => void>();
 
 Object.assign(globalThis, {
   chrome: {
     storage: { local: area("local"), session: area("session") },
     permissions: { request: async () => true },
-    scripting: { getRegisteredContentScripts: async () => [], registerContentScripts: async () => {}, updateContentScripts: async () => {}, executeScript: async () => [] },
-    tabs: { query: async () => [{ id: 1, url: "http://localhost:5500/board.html" }], create: async () => {}, onActivated: noop, onUpdated: noop,
-      sendMessage: async () => openChat() },
+    // Page discovery sees the mock tool's links: the board links nowhere, the home page links to both pages.
+    scripting: { getRegisteredContentScripts: async () => [], registerContentScripts: async () => {}, updateContentScripts: async () => {},
+      executeScript: async (o: { func?: unknown }) => o.func ? [{ result: tabUrl.endsWith("board.html")
+        ? { title: "Foresight Board", links: [] }
+        : { title: "Mock tool", links: [{ url: "http://localhost:5500/board.html", label: "Foresight Board — Saffron" }, { url: "http://localhost:5500/issues.html", label: "Jira issues" }] } }] : [] },
+    tabs: { query: async () => [{ id: 1, url: "http://localhost:5500/board.html" }], onActivated: noop, sendMessage: async () => openChat(),
+      create: async () => ({ id: 2 }), get: async () => ({ url: tabUrl }), remove: async () => {},
+      update: async (_id: number, { url }: { url: string }) => { tabUrl = url; setTimeout(() => loaded.forEach((l) => l(2, { status: "complete" }))); },
+      onUpdated: { addListener: (l: (id: number, i: { status: string }) => void) => loaded.add(l), removeListener: (l: (id: number, i: { status: string }) => void) => loaded.delete(l) } },
     runtime: {
       connect: () => {
         const listeners: ((e: ScanEvent) => void)[] = [];

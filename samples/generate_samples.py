@@ -21,7 +21,6 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 rng = random.Random(20261123)
 EXPORT_AT = datetime(2026, 11, 23, 10, 15, 0)
-JIRA = "https://harbourline.example.atlassian.net"
 
 # ---------------------------------------------------------------- people & projects
 
@@ -271,7 +270,7 @@ def write_csv(issues):
             put("Due date", jira_dt(datetime.combine(issue["due"], datetime.min.time())))
         put("Votes", "0")
         put("Labels", *rng.sample(["saffron", "phase_two", "store_rollout", "supplier_facing"], rng.choice([0, 0, 1, 2])))
-        put("Description", f"Implement as [{JIRA}/browse/{issue['key']}|{JIRA}/browse/{issue['key']}|smart-link] , the acceptance criteria are in the attached document.")
+        put("Description", "Implement as agreed; the acceptance criteria are in the attached document.")
         watchers = [r] + rng.sample(PEOPLE, rng.choice([0, 0, 1, 2]))
         put("Watchers", *[w["name"] for w in watchers]); put("Watchers Id", *[w["id"] for w in watchers])
         spent = 0
@@ -327,15 +326,12 @@ def write_csv(issues):
 
 def render_issues_page(epics, issues) -> str:
     e = html.escape
-
-    def link(key):
-        return f'<a href="{JIRA}/browse/{key}">{key}</a>'
-
+    # Keys are plain text: no external Jira address is invented for the demo.
     epic_rows = "".join(
-        f"<tr><td>{link(x['key'])}</td><td>{e(x['summary'])}</td><td>Epic</td><td>{x['status']}</td>"
+        f"<tr><td>{x['key']}</td><td>{e(x['summary'])}</td><td>Epic</td><td>{x['status']}</td>"
         f"<td>{x['due'].strftime('%d/%m/%Y') if x['due'] else ''}</td></tr>" for x in epics)
     issue_rows = "".join(
-        f"<tr><td>{link(i['key'])}</td><td>{e(i['summary'])}</td><td>Story</td><td>{e(i['status'])}</td><td>{i['category']}</td>"
+        f"<tr><td>{i['key']}</td><td>{e(i['summary'])}</td><td>Story</td><td>{e(i['status'])}</td><td>{i['category']}</td>"
         f"<td>{e(i['priority'])}</td><td>{e(i['assignee']['name'])}</td><td>{i['epic']['key']}</td><td>{i['delivery_point']}</td>"
         f"<td>{i['due'].strftime('%d/%m/%Y') if i['due'] else ''}</td><td>{i.get('blocked_by', '')}</td></tr>" for i in issues)
     return (f'<!DOCTYPE html><html><head><meta charset="utf-8"><title>Foresight — Jira issues</title><style>{BOARD_CSS}'
