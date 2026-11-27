@@ -11,18 +11,40 @@ from typing import Any
 from app.agent.answer import ChatAnswer
 from app.agent.tools import MONTHS, ToolError, Toolset
 from app.analytics import resourcing
+from app.store import Dataset
 
-HELP = (
-    "I can answer questions like:\n"
-    "- Give me the current project status and identify delayed epics\n"
-    "- Who is over-allocated next week?\n"
-    "- What is Priya working on?\n"
-    "- Tell me about Stock Sync\n"
-    "- What is outstanding for December?\n"
-    "- Which milestones are coming up?\n"
-    "- What are the blockers? Which tasks are overdue?\n"
-    "Demo mode understands these question types only; connect an LLM for free-form questions."
-)
+def suggestions(ds: Dataset) -> list[str]:
+    """Example questions the data read can answer, using real names from it."""
+    out = ["Give me the current project status and identify delayed epics"] if ds.projects else []
+    if rs := ds.resourcing:
+        everyone = resourcing.people(rs)
+        out.append("Who is over-allocated next week?")
+        if everyone:
+            out.append(f"What is {everyone[0].split()[0]} working on?")
+        if rs.workstreams:
+            out.append(f"Tell me about {rs.workstreams[0].name}")
+        out.append("Which milestones are coming up?")
+    if ds.projects:
+        out.append("What are the blockers?")
+    return out[:5]
+
+
+def no_answer(ds: Dataset) -> str:
+    """Reply for a question the data cannot answer: what was read, and what can be asked instead."""
+    covers = []
+    if rs := ds.resourcing:
+        covers.append(f"the {rs.title or 'Foresight board'} ({len(rs.workstreams)} workstreams: people, allocations, "
+                      "milestones and outstanding work by week)")
+    if ds.projects:
+        keys = ", ".join(p.project.key for p in ds.projects)
+        issues = sum(len(p.issues) for p in ds.projects)
+        covers.append(f"{issues} Jira issues in {keys} (status, assignees, due dates and blockers)")
+    if not covers:
+        return "The pages that were read hold no project data yet. Read the Foresight board or Jira issue pages first."
+    lines = [f"I couldn't find that in the pages that were read. They cover {' and '.join(covers)}.",
+             "You could ask, for example:", *(f"- {q}" for q in suggestions(ds)[:3])]
+    lines.append("If the answer is on another page of the tool, choose that page in the side panel and read again.")
+    return "\n".join(lines)
 
 
 def _d(iso: str | None) -> str:
@@ -91,7 +113,7 @@ def route(ts: Toolset, message: str) -> tuple[str, dict[str, Any]]:
 def answer(ts: Toolset, message: str) -> ChatAnswer:
     tool, kwargs = route(ts, message)
     if tool == "help":
-        return ChatAnswer(text=HELP, mode="demo")
+        return ChatAnswer(text=no_answer(ts.ds), mode="demo")
     try:
         result = getattr(ts, tool)(**kwargs)
     except ToolError as e:

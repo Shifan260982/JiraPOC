@@ -54,8 +54,9 @@ Load it: `chrome://extensions` (or `edge://extensions`) → Developer mode → *
 
 Use it:
 1. Sign in to the Foresight tool in the browser.
-2. Click the extension icon to open the side panel, paste the Foresight address, and click **Read the tool**.
-   The browser asks once for access to the tool and the assistant server.
+2. Open any Foresight page, click the extension icon, then **Find pages from this page**. The browser asks once
+   for access to the tool and the assistant server. The panel lists the open page, its parent and home pages,
+   and the pages they link to; untick any you don't want and click **Read N pages**. Only ticked pages are read.
 3. Open a Foresight page and click **Open chat on this page** (or the **Ask** button at the bottom right).
 
 Only read the tool with the client's authorisation.
@@ -69,7 +70,7 @@ Regenerate it with `backend\.venv\Scripts\python samples\generate_samples.py`.
 backend\.venv\Scripts\python -m http.server 5500 --bind 127.0.0.1 --directory samples\mock-tool
 ```
 
-Then point the extension at `http://localhost:5500/`. The mock tool has a home page, the Foresight board and a Jira issues page.
+Then open `http://localhost:5500/board.html` and find pages from it. The mock tool has a home page, the Foresight board and a Jira issues page.
 
 UI preview without loading the extension (stubs the browser APIs, replays a recorded scan, uses the live backend on 8001):
 

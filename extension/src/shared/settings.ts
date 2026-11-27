@@ -27,7 +27,7 @@ export async function saveSettings(settings: Settings): Promise<void> {
 
 export function validateSettings(s: Settings): string[] {
   const errors: string[] = [];
-  if (s.startUrls.length === 0) errors.push("Enter the address of the Foresight tool.");
+  if (s.startUrls.length === 0) errors.push("Choose at least one page to read.");
   for (const u of s.startUrls) {
     if (u.includes("*")) errors.push(`Enter a page address, not a pattern: ${u}. For example http://localhost:5500/`);
     else if (!normaliseUrl(u)) errors.push(`That isn't a web address: ${u}`);

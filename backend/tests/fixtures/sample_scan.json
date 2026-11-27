@@ -8902,8 +8902,7 @@
    "rows": [
     [
      {
-      "text": "K41-410",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-410"
+      "text": "K41-410"
      },
      {
       "text": "Stock Sync - Feature Delivery Programme"
@@ -8920,8 +8919,7 @@
     ],
     [
      {
-      "text": "K42-417",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-417"
+      "text": "K42-417"
      },
      {
       "text": "Supplier Portal - Feature Delivery Programme"
@@ -8938,8 +8936,7 @@
     ],
     [
      {
-      "text": "M07-424",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-424"
+      "text": "M07-424"
      },
      {
       "text": "Label Printing - Feature Delivery Programme"
@@ -8956,8 +8953,7 @@
     ],
     [
      {
-      "text": "T19-431",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-431"
+      "text": "T19-431"
      },
      {
       "text": "Recall Tracker - Feature Delivery Programme"
@@ -8974,8 +8970,7 @@
     ],
     [
      {
-      "text": "K41-438",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-438"
+      "text": "K41-438"
      },
      {
       "text": "Allergen Matrix - Feature Delivery Programme"
@@ -8992,8 +8987,7 @@
     ],
     [
      {
-      "text": "K42-445",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-445"
+      "text": "K42-445"
      },
      {
       "text": "Order Hub - Feature Delivery Programme"
@@ -9010,8 +9004,7 @@
     ],
     [
      {
-      "text": "M07-452",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-452"
+      "text": "M07-452"
      },
      {
       "text": "Pricing Engine - Feature Delivery Programme"
@@ -9028,8 +9021,7 @@
     ],
     [
      {
-      "text": "T19-459",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-459"
+      "text": "T19-459"
      },
      {
       "text": "Waste Reporting - Feature Delivery Programme"
@@ -9046,8 +9038,7 @@
     ],
     [
      {
-      "text": "K41-466",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-466"
+      "text": "K41-466"
      },
      {
       "text": "Audit Trail - Feature Delivery Programme"
@@ -9096,8 +9087,7 @@
    "rows": [
     [
      {
-      "text": "K41-3104",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3104"
+      "text": "K41-3104"
      },
      {
       "text": "Filter waste categories via the nightly job"
@@ -9132,8 +9122,7 @@
     ],
     [
      {
-      "text": "K42-3118",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3118"
+      "text": "K42-3118"
      },
      {
       "text": "Notify on driver shift times in the portal"
@@ -9168,8 +9157,7 @@
     ],
     [
      {
-      "text": "M07-3127",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3127"
+      "text": "M07-3127"
      },
      {
       "text": "Filter order cut-off times on the dashboard"
@@ -9204,8 +9192,7 @@
     ],
     [
      {
-      "text": "T19-3141",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3141"
+      "text": "T19-3141"
      },
      {
       "text": "Sync waste categories in the portal"
@@ -9240,8 +9227,7 @@
     ],
     [
      {
-      "text": "K41-3157",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3157"
+      "text": "K41-3157"
      },
      {
       "text": "Audit driver shift times in the mobile app"
@@ -9276,8 +9262,7 @@
     ],
     [
      {
-      "text": "K42-3168",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3168"
+      "text": "K42-3168"
      },
      {
       "text": "Recalculate order cut-off times in the mobile app"
@@ -9312,8 +9297,7 @@
     ],
     [
      {
-      "text": "M07-3186",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3186"
+      "text": "M07-3186"
      },
      {
       "text": "Audit waste categories on the dashboard"
@@ -9348,8 +9332,7 @@
     ],
     [
      {
-      "text": "T19-3195",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3195"
+      "text": "T19-3195"
      },
      {
       "text": "Export allergen flags for store users"
@@ -9384,8 +9367,7 @@
     ],
     [
      {
-      "text": "K41-3204",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3204"
+      "text": "K41-3204"
      },
      {
       "text": "Filter order cut-off times for store users"
@@ -9420,8 +9402,7 @@
     ],
     [
      {
-      "text": "K41-3220",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3220"
+      "text": "K41-3220"
      },
      {
       "text": "Import label templates on the dashboard"
@@ -9456,8 +9437,7 @@
     ],
     [
      {
-      "text": "K42-3232",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3232"
+      "text": "K42-3232"
      },
      {
       "text": "Validate stock adjustments on the dashboard"
@@ -9492,8 +9472,7 @@
     ],
     [
      {
-      "text": "M07-3250",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3250"
+      "text": "M07-3250"
      },
      {
       "text": "Notify on order cut-off times in the portal"
@@ -9528,8 +9507,7 @@
     ],
     [
      {
-      "text": "T19-3261",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3261"
+      "text": "T19-3261"
      },
      {
       "text": "Notify on order cut-off times in the portal"
@@ -9564,8 +9542,7 @@
     ],
     [
      {
-      "text": "K41-3275",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3275"
+      "text": "K41-3275"
      },
      {
       "text": "Recalculate supplier batch codes in the portal"
@@ -9600,8 +9577,7 @@
     ],
     [
      {
-      "text": "K42-3284",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3284"
+      "text": "K42-3284"
      },
      {
       "text": "Import waste categories via the nightly job"
@@ -9636,8 +9612,7 @@
     ],
     [
      {
-      "text": "M07-3296",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3296"
+      "text": "M07-3296"
      },
      {
       "text": "Archive stock adjustments in the portal"
@@ -9672,8 +9647,7 @@
     ],
     [
      {
-      "text": "T19-3316",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3316"
+      "text": "T19-3316"
      },
      {
       "text": "Export recall notices on the dashboard"
@@ -9708,8 +9682,7 @@
     ],
     [
      {
-      "text": "K41-3328",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3328"
+      "text": "K41-3328"
      },
      {
       "text": "Sync price overrides in the mobile app"
@@ -9744,8 +9717,7 @@
     ],
     [
      {
-      "text": "K41-3336",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3336"
+      "text": "K41-3336"
      },
      {
       "text": "Validate price overrides on the dashboard"
@@ -9780,8 +9752,7 @@
     ],
     [
      {
-      "text": "K42-3354",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3354"
+      "text": "K42-3354"
      },
      {
       "text": "Archive price overrides on the dashboard"
@@ -9816,8 +9787,7 @@
     ],
     [
      {
-      "text": "M07-3365",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3365"
+      "text": "M07-3365"
      },
      {
       "text": "Display stock adjustments for store users"
@@ -9852,8 +9822,7 @@
     ],
     [
      {
-      "text": "T19-3374",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3374"
+      "text": "T19-3374"
      },
      {
       "text": "Display label templates via the nightly job"
@@ -9888,8 +9857,7 @@
     ],
     [
      {
-      "text": "K41-3387",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3387"
+      "text": "K41-3387"
      },
      {
       "text": "Recalculate price overrides for store users"
@@ -9924,8 +9892,7 @@
     ],
     [
      {
-      "text": "K42-3400",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3400"
+      "text": "K42-3400"
      },
      {
       "text": "Validate stock adjustments for store users"
@@ -9960,8 +9927,7 @@
     ],
     [
      {
-      "text": "M07-3418",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3418"
+      "text": "M07-3418"
      },
      {
       "text": "Archive returns reasons in the portal"
@@ -9996,8 +9962,7 @@
     ],
     [
      {
-      "text": "T19-3434",
-      "href": "https://harbourline.example.atlassian.net/browse/T19-3434"
+      "text": "T19-3434"
      },
      {
       "text": "Display waste categories via the nightly job"
@@ -10032,8 +9997,7 @@
     ],
     [
      {
-      "text": "K41-3442",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3442"
+      "text": "K41-3442"
      },
      {
       "text": "Sync price overrides on the dashboard"
@@ -10068,8 +10032,7 @@
     ],
     [
      {
-      "text": "K41-3457",
-      "href": "https://harbourline.example.atlassian.net/browse/K41-3457"
+      "text": "K41-3457"
      },
      {
       "text": "Validate driver shift times in the mobile app"
@@ -10104,8 +10067,7 @@
     ],
     [
      {
-      "text": "K42-3473",
-      "href": "https://harbourline.example.atlassian.net/browse/K42-3473"
+      "text": "K42-3473"
      },
      {
       "text": "Archive allergen flags in the portal"
@@ -10140,8 +10102,7 @@
     ],
     [
      {
-      "text": "M07-3483",
-      "href": "https://harbourline.example.atlassian.net/browse/M07-3483"
+      "text": "M07-3483"
      },
      {
       "text": "Sync order cut-off times in the portal"

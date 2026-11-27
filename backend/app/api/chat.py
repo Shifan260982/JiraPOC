@@ -9,7 +9,6 @@ from pydantic import BaseModel, Field
 from app import store
 from app.agent import demo, llm, text_llm
 from app.agent.tools import Toolset
-from app.analytics import resourcing
 
 log = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/v1/chat", tags=["chat"])
@@ -49,24 +48,13 @@ def _dataset(dataset_id: str) -> store.Dataset:
 def chat_status(dataset_id: str) -> dict[str, Any]:
     """What the chat can answer from, and data-specific example questions."""
     ds = _dataset(dataset_id)
-    suggestions = ["Give me the current project status and identify delayed epics"] if ds.projects else []
-    if rs := ds.resourcing:
-        everyone = resourcing.people(rs)
-        suggestions += ["Who is over-allocated next week?"]
-        if everyone:
-            suggestions.append(f"What is {everyone[0].split()[0]} working on?")
-        if rs.workstreams:
-            suggestions.append(f"Tell me about {rs.workstreams[0].name}")
-        suggestions += ["Which milestones are coming up?"]
-    if ds.projects:
-        suggestions += ["What are the blockers?"]
     return {
         "mode": "demo" if (engine := _engine()) == "demo" else "llm",
         "model": _model_label(engine),
         "as_of": (ds.resourcing.as_of if ds.resourcing else ds.projects[0].as_of if ds.projects else None),
         "projects": [p.project.key for p in ds.projects],
         "workstreams": len(ds.resourcing.workstreams) if ds.resourcing else 0,
-        "suggestions": suggestions[:5],
+        "suggestions": demo.suggestions(ds),
     }
 
 

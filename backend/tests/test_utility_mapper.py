@@ -66,7 +66,8 @@ def test_stats_and_projects():
 def test_issue_fields_are_mapped_and_merged():
     snaps, _, _ = mapped()
     epic = issue(snaps, "PRJ-1")
-    assert (epic.kind, epic.due_date, epic.url) == (IssueKind.EPIC, date(2026, 11, 15), "https://x.atlassian.net/browse/PRJ-1")
+    # The source is the page the row was read from, not the Jira link in the row.
+    assert (epic.kind, epic.due_date, epic.url) == (IssueKind.EPIC, date(2026, 11, 15), f"{TOOL}/epics")
 
     story = issue(snaps, "PRJ-3")
     assert story.summary == "Pay"  # first sighting wins

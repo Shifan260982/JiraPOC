@@ -2,7 +2,8 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { loadChatSession, registerOverlay, saveChatSession, type ChatSession } from "../shared/chat";
 import { loadSettings, requiredOrigins, saveSettings, selectorError, validateSettings } from "../shared/settings";
 import type { ScanEvent, ScanRequest, ScanResult, Settings } from "../shared/types";
-import { originsOf } from "../shared/urls";
+import { normaliseUrl, originsOf } from "../shared/urls";
+import { discoverPages, type FoundPage } from "../background/crawler";
 import { downloadJson, ingestScan, type IngestResponse } from "./backend";
 
 type Phase = "idle" | "reading" | "sending" | "done" | "error";
@@ -75,15 +76,7 @@ function MoreOptions({ settings, set }: { settings: Settings; set: <K extends ke
     <details className="group text-sm">
       <Summary>More options</Summary>
       <div className="mt-3 space-y-4">
-        <Field id="extra" label="Other pages to start from" hint="One address per line. The tool's home page is usually enough.">
-          <textarea id="extra" rows={2} className={input} value={settings.startUrls.slice(1).join("\n")}
-            onChange={(e) => set("startUrls", [settings.startUrls[0] ?? "", ...lines(e.target.value)])} />
-        </Field>
-        <Field id="include" label="Only follow links matching" hint="Leave empty to read the whole tool site. * matches anything.">
-          <textarea id="include" rows={2} className={input} value={settings.includePatterns.join("\n")}
-            onChange={(e) => set("includePatterns", lines(e.target.value))} />
-        </Field>
-        <Field id="exclude" label="Never open links matching" hint="Stops the reader from signing you out or changing data.">
+        <Field id="exclude" label="Never offer links matching" hint="Stops the reader from signing you out or changing data. * matches anything.">
           <textarea id="exclude" rows={3} className={input} value={settings.excludePatterns.join("\n")}
             onChange={(e) => set("excludePatterns", lines(e.target.value))} />
         </Field>
@@ -113,7 +106,10 @@ function MoreOptions({ settings, set }: { settings: Settings; set: <K extends ke
 
 export function App() {
   const [settings, setSettings] = useState<Settings | null>(null);
-  const [editing, setEditing] = useState(false);
+  const [tabUrl, setTabUrl] = useState<string | null>(null);
+  const [found, setFound] = useState<FoundPage[] | null>(null);
+  const [picked, setPicked] = useState<string[]>([]);
+  const [finding, setFinding] = useState(false);
   const [phase, setPhase] = useState<Phase>("idle");
   const [progress, setProgress] = useState<{ visited: number; url: string } | null>(null);
   const [pageWarnings, setPageWarnings] = useState<{ url: string; error: string }[]>([]);
@@ -125,18 +121,16 @@ export function App() {
   const portRef = useRef<chrome.runtime.Port | null>(null);
 
   useEffect(() => {
-    void loadSettings().then((s) => {
-      setSettings(s);
-      setEditing(s.startUrls.length === 0);
-    });
+    void loadSettings().then(setSettings);
     void loadChatSession().then(setSession);
     return () => portRef.current?.disconnect();
   }, []);
 
-  // Track whether the active tab is a tool page, so "Open chat" can say what it will do.
+  // Track the active tab: pages are found from it, and "Open chat" says what it will do on it.
   useEffect(() => {
     const check = async () => {
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      setTabUrl(tab?.url ? normaliseUrl(tab.url) : null);
       const origins = session?.toolOrigins ?? [];
       setOnToolPage(!!tab?.url && origins.includes(new URL(tab.url).origin));
     };
@@ -154,6 +148,9 @@ export function App() {
   const set = <K extends keyof Settings>(k: K, v: Settings[K]) => setSettings({ ...settings, [k]: v });
   const toolUrl = settings.startUrls[0] ?? "";
   const busy = phase === "reading" || phase === "sending";
+  // The saved pages only apply while the open tab is on the same site; another site starts with finding pages.
+  const site = (u: string) => new URL(u).host;
+  const sameSite = !!toolUrl && (!tabUrl || site(tabUrl) === site(toolUrl));
 
   const openChat = async () => {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -181,16 +178,37 @@ export function App() {
     }
   };
 
-  const read = async () => {
-    const problems = [...validateSettings(settings), selectorError(settings.nextPageSelector)].filter((p): p is string => !!p);
-    setErrors(problems);
-    if (problems.length) return setEditing(true);
+  // Lists the pages the user may choose to read; reads nothing yet.
+  const find = async () => {
+    if (!tabUrl) return;
     // Must be the first await: Chrome only shows the permission prompt inside the click.
-    const granted = await chrome.permissions.request({ origins: requiredOrigins(settings) });
-    if (!granted) return setErrors(["The extension needs access to the tool and the assistant server to read data."]);
-    await saveSettings(settings);
+    const granted = await chrome.permissions.request({ origins: requiredOrigins({ ...settings, startUrls: [tabUrl] }) });
+    if (!granted) return setErrors(["The extension needs access to this site and the assistant server to find pages."]);
+    setErrors([]);
+    setFinding(true);
+    try {
+      const pages = await discoverPages(tabUrl, settings.excludePatterns);
+      setFound(pages);
+      setPicked(pages.map((p) => p.url));
+    } catch (e) {
+      setErrors([e instanceof Error ? e.message : String(e)]);
+    } finally {
+      setFinding(false);
+    }
+  };
 
-    setEditing(false);
+  const read = async (pages?: string[]) => {
+    const s = pages ? { ...settings, startUrls: pages } : settings;
+    const problems = [...validateSettings(s), selectorError(s.nextPageSelector)].filter((p): p is string => !!p);
+    setErrors(problems);
+    if (problems.length) return;
+    // Must be the first await: Chrome only shows the permission prompt inside the click.
+    const granted = await chrome.permissions.request({ origins: requiredOrigins(s) });
+    if (!granted) return setErrors(["The extension needs access to the tool and the assistant server to read data."]);
+    await saveSettings(s);
+    setSettings(s);
+
+    setFound(null);
     setScan(null);
     setIngest(null);
     setPageWarnings([]);
@@ -210,12 +228,12 @@ export function App() {
         port.disconnect();
         setScan(e.result);
         if (e.result.tables.length === 0) {
-          setErrors(["No tables were found on the tool's pages. Check the address, or that you are signed in to the tool."]);
+          setErrors(["No tables were found on the chosen pages. Choose other pages, or check you are signed in to the tool."]);
           setPhase("error");
-        } else void finish(settings, e.result);
+        } else void finish(s, e.result);
       }
     });
-    port.postMessage({ type: "start", settings } satisfies ScanRequest);
+    port.postMessage({ type: "start", settings: s } satisfies ScanRequest);
   };
 
   const board = ingest?.board;
@@ -234,23 +252,50 @@ export function App() {
       </header>
 
       <Section title="Source">
-        {editing ? (
-          <div className="space-y-4">
-            <Field id="tool" label="Foresight address" hint="Paste the address of the Foresight home page. You must be signed in to it in this browser.">
-              <input id="tool" className={input} placeholder="https://foresight.example.com/" value={toolUrl} autoFocus
-                onChange={(e) => set("startUrls", [e.target.value.trim(), ...settings.startUrls.slice(1)])} />
-            </Field>
-            <MoreOptions settings={settings} set={set} />
-            {settings.startUrls.length > 0 && settings.startUrls[0] && !busy && (
-              <button type="button" className={link} onClick={() => setEditing(false)}>Done</button>
-            )}
-          </div>
+        {found ? (
+          <fieldset className="space-y-3">
+            <legend className="text-sm font-medium">Choose the pages to read</legend>
+            <ul className="divide-y divide-line rounded-lg border border-line bg-page">
+              {found.map((p) => (
+                <li key={p.url}>
+                  <label className="flex cursor-pointer items-start gap-2.5 px-3 py-2">
+                    <input type="checkbox" className="mt-0.5 size-4 accent-accent" checked={picked.includes(p.url)}
+                      onChange={(e) => setPicked(e.target.checked ? [...picked, p.url] : picked.filter((u) => u !== p.url))} />
+                    <span className="min-w-0">
+                      <span className="block truncate text-sm">{p.label}</span>
+                      <span className="block truncate text-xs text-muted" title={p.url}>{p.url.replace(/^https?:\/\//, "")}</span>
+                    </span>
+                  </label>
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-wrap items-center gap-3">
+              <button type="button" className={primary} onClick={() => void read(found.map((p) => p.url).filter((u) => picked.includes(u)))}
+                disabled={picked.length === 0}>
+                Read {plural(picked.length, "page")}
+              </button>
+              <button type="button" className={link} onClick={() => setFound(null)}>Cancel</button>
+            </div>
+          </fieldset>
         ) : (
-          <div className="flex items-baseline justify-between gap-3">
-            <p className="min-w-0 truncate text-sm font-medium" title={toolUrl}>{toolUrl.replace(/^https?:\/\//, "")}</p>
-            <button type="button" className={link} onClick={() => setEditing(true)} disabled={busy}>Change</button>
+          <div className="space-y-3">
+            {toolUrl && (
+              <details className="group text-sm">
+                <Summary>{plural(settings.startUrls.length, "page")} chosen{sameSite ? "" : ` last time on ${site(toolUrl)}`}</Summary>
+                <ul className="mt-2 space-y-1 text-xs text-muted">
+                  {settings.startUrls.map((u) => <li key={u} className="truncate" title={u}>{u.replace(/^https?:\/\//, "")}</li>)}
+                </ul>
+              </details>
+            )}
+            <p className="truncate text-sm text-ink-2" title={tabUrl ?? undefined}>
+              {tabUrl ? <>This page: <span className="font-medium text-ink">{tabUrl.replace(/^https?:\/\//, "")}</span></> : "Open a Foresight page to find the pages to read."}
+            </p>
+            <button type="button" className={sameSite ? secondary : primary} onClick={() => void find()} disabled={!tabUrl || finding || busy}>
+              {finding ? "Finding pages…" : sameSite ? "Choose pages again" : "Find pages from this page"}
+            </button>
           </div>
         )}
+        <MoreOptions settings={settings} set={set} />
       </Section>
 
       <Section title="Data">
@@ -259,7 +304,7 @@ export function App() {
             <p className="text-sm">
               {session
                 ? `Data was read at ${time(session.readAt)}. Read again to refresh it.`
-                : "Nothing read yet. Reading collects the board and issue tables from the tool so the chat can answer from them."}
+                : "Nothing read yet. Reading collects the board and issue tables from the chosen pages so the chat can answer from them."}
             </p>
           )}
           {phase === "reading" && (
@@ -299,11 +344,11 @@ export function App() {
         <div className="flex flex-wrap items-center gap-3">
           {phase === "reading" ? (
             <button type="button" className={secondary} onClick={() => portRef.current?.postMessage({ type: "cancel" } satisfies ScanRequest)}>Stop</button>
-          ) : (
-            <button type="button" className={ingest || session ? secondary : primary} onClick={read} disabled={busy || !toolUrl}>
-              {ingest || session ? "Read again" : "Read the tool"}
+          ) : sameSite && !found ? (
+            <button type="button" className={secondary} onClick={() => void read()} disabled={busy}>
+              {ingest || session ? "Read again" : "Read the chosen pages"}
             </button>
-          )}
+          ) : null}
         </div>
 
         {(ingest?.warnings.length || pageWarnings.length) ? (

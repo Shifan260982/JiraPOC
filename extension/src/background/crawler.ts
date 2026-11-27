@@ -38,8 +38,8 @@ function waitForLoad(tabId: number, navigate: () => Promise<unknown>): Promise<v
 }
 
 /**
- * Breadth-first crawl of the utility tool in one background tab, using the user's existing sign-in.
- * Only follows same-origin links that pass the include/exclude rules, up to settings.maxPages.
+ * Reads exactly the pages in settings.startUrls (the ones the user ticked) in one background tab, using the
+ * user's existing sign-in. Links are not followed: discoverPages offers them for the user to choose.
  */
 export async function runScan(
   settings: Settings,
@@ -48,7 +48,6 @@ export async function runScan(
 ): Promise<ScanResult> {
   const toolOrigins = originsOf(settings.startUrls);
   const queue = [...new Set(settings.startUrls.map((u) => normaliseUrl(u)).filter((u): u is string => !!u))];
-  const seen = new Set(queue);
   const result: ScanResult = {
     startedAt: new Date().toISOString(),
     finishedAt: "",
@@ -97,13 +96,6 @@ export async function runScan(
 
         result.pagesVisited.push(url);
         result.tables.push(...page.tables.map((t) => ({ ...t, pageUrl: url, pageTitle: page.title })));
-        for (const link of page.links) {
-          const n = normaliseUrl(link);
-          if (n && !seen.has(n) && shouldFollow(n, settings)) {
-            seen.add(n);
-            queue.push(n);
-          }
-        }
         if (page.timedOut) emit({ type: "pageError", url, error: "Page kept changing; data read after timeout and may be incomplete" });
         emit({
           type: "progress",
@@ -125,4 +117,62 @@ export async function runScan(
   }
   result.finishedAt = new Date().toISOString();
   return result;
+}
+
+export interface FoundPage {
+  url: string;
+  label: string;
+}
+
+/** Injected into a page: its title and same-origin links with their text. Must be self-contained. */
+function pageLinks(): { title: string; links: FoundPage[] } {
+  const clean = (s: string | null) => (s ?? "").replace(/\s+/g, " ").trim();
+  const links = Array.from(document.querySelectorAll("a[href]"), (a) => a as HTMLAnchorElement)
+    .filter((a) => a.origin === location.origin)
+    .map((a) => ({ url: a.href, label: clean(a.textContent) || clean(a.title) }));
+  return { title: clean(document.title), links };
+}
+
+/** The open page, its parent folder and the site's home page, without duplicates. */
+export function parentPages(pageUrl: string): string[] {
+  const current = normaliseUrl(pageUrl);
+  if (!current) return [];
+  return [...new Set([current, normaliseUrl(new URL(".", current).href)!, normaliseUrl(new URL("/", current).href)!])];
+}
+
+/**
+ * Pages the user can choose to read: the open page and its parents, plus every same-origin link on them that
+ * the exclude rules allow. Only links are collected here; no data is read until the user ticks pages.
+ */
+export async function discoverPages(pageUrl: string, excludePatterns: string[]): Promise<FoundPage[]> {
+  const sources = parentPages(pageUrl);
+  if (sources.length === 0) throw new Error("Open a page of the tool first.");
+  const rules = { startUrls: sources.slice(0, 1), includePatterns: [], excludePatterns };
+  const found = new Map<string, string>();
+  const add = (url: string, label: string) => {
+    const n = normaliseUrl(url);
+    if (n && shouldFollow(n, rules) && !found.get(n)) found.set(n, label);
+  };
+  for (const s of sources) add(s, ""); // the open page first, then its parents
+
+  const tab = await chrome.tabs.create({ url: "about:blank", active: false });
+  const tabId = tab.id!;
+  try {
+    for (const url of sources) {
+      try {
+        await waitForLoad(tabId, () => chrome.tabs.update(tabId, { url }));
+        const landed = (await chrome.tabs.get(tabId)).url;
+        if (!landed || new URL(landed).origin !== new URL(url).origin) continue; // sent to sign-in: skip it
+        const [injection] = await chrome.scripting.executeScript({ target: { tabId }, func: pageLinks });
+        if (!injection?.result) continue;
+        add(url, injection.result.title);
+        for (const l of injection.result.links) add(l.url, l.label);
+      } catch {
+        // An unreachable parent page just offers fewer choices.
+      }
+    }
+  } finally {
+    await chrome.tabs.remove(tabId).catch(() => undefined);
+  }
+  return [...found].map(([url, label]) => ({ url, label: label || url }));
 }

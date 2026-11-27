@@ -92,9 +92,6 @@ def complete(messages: list[dict[str, str]]) -> tuple[str, str]:
     raise LLMUnavailable("; ".join(failures))
 
 
-NOT_ANSWERED = "The data I have does not answer that question."
-
-
 def _unanswered(text: str) -> bool:
     # Small models do not always use the exact marker, so accept the plain-English form too.
     return "NOT IN DATA" in text.upper() or "does not answer" in text.lower()
@@ -152,7 +149,7 @@ def _answer_from_context(ts: Toolset, message: str, turns: list[dict[str, str]])
     ])
     allowed = set(KEY_RE.findall(data)) | {e["label"] for e in evidence}
     if _unanswered(text):
-        text = NOT_ANSWERED
+        text = demo.no_answer(ts.ds)
     elif set(KEY_RE.findall(text)) - allowed:
         log.warning("Model %s cited keys not in the context; answering with the overview", model)
         text = picked[0][2]
